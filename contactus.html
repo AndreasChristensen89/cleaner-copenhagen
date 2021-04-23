@@ -23,9 +23,6 @@
             <a href="whatwedo.html">What We Do</a>
         </li>
         <li>
-            <a href="becomeavolunteer.html">Become A Volunteer</a>
-        </li>
-        <li>
             <a href="contactus.html" class="active">Contact Us</a>
         </li>
     </ul>
@@ -34,11 +31,65 @@
     <img id="hero-image" src="#" alt="Hero-image that shows a polluted city">
     <div id="hero-cover">
         <div id="cover-text">
-            <h2>Be part of a cleaner city</h2>
+            <h2>Join us and make a difference</h2>
         </div>
     </div>
 </section>
+        <!-- form-->
+      <div class="form-container">
+        <!--method and action taken from previous code institute project.-->
+        <form
+          class="contactus-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net/"
+        >
+          <label class="form" for="fname">First Name</label>
+          <input
+            id="fname"
+            type="text"
+            name="firstname"
+            placeholder="Enter your first name"
+            required
+          />
 
+          <label class="form" for="lname">Last Name</label>
+          <input
+            id="lname"
+            type="text"
+            name="lastname"
+            placeholder="Enter your last name"
+            required
+          />
+
+          <label class="form email" for="email"> Email Address</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+            <label class="form" for="subject">Subject</label>
+            <select id="purpose" name="purpose" placeholder="Select Subject" required>
+      <option value="becomemember">Become a member</option>
+      <option value="questions">Questions</option>
+      <option value="other">Other</option>
+            </select>
+
+          <label class="formlabel messageinput" for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Write your message here"
+            style="height: 150px"
+            required
+          ></textarea>
+
+          <input class="formbutton" type="reset" value="Clear" />
+          <input class="formbutton" type="submit" value="Send" />
+        </form>
+      </div>
 </body>
 <footer>
     <ul>
