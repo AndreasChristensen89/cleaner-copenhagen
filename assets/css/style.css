@@ -56,6 +56,7 @@ body {
     height: 300px;
     width: 100%;
     position: relative;
+    padding-bottom: 50px;
 }
 
 #hero-image {
@@ -102,6 +103,7 @@ body {
 .cta-section {
     height: 450px;
     margin: 30px;
+    text-align: center;
 }
 
 #left-cta {
@@ -114,7 +116,6 @@ body {
   float: right;
   padding-top: 30px;
   width: 30%;
-
 }
 #center-cta {
   margin: 0 auto;
@@ -130,7 +131,6 @@ body {
 .cta-section div {
   background-color: silver;
   border-radius: 10px;
-  text-align: center;
   height: 450px;
 }
 
