@@ -94,3 +94,94 @@ body {
         transform: 1;
     }
 }
+
+/* Call to action section */
+
+#cta-section {
+    height: 600px;
+}
+
+#left-cta {
+  float: left;
+  width: 25%;
+  padding-top: 30px;
+  background-color: blue;
+}
+#right-cta {
+  float: right;
+  width: 25%;
+  padding-top: 30px;
+  background-color: blue;
+}
+#center-cta {
+  margin: 0 auto;
+  width: 25%;
+  padding-top: 30px;
+  background-color: blue;
+}
+
+#cta-section div {
+  background-color: silver;
+  border-radius: 10px;
+  width: 30%;
+  height: 475px;
+}
+
+.cta-content h2 {
+  padding: 25px 10px 25px 10px;
+  height: 50px;
+  width: 300px;
+  text-align: center;
+}
+
+.cta-content img {
+    margin-top: 30px;
+    display: block;
+    margin-left: 66%;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.cta-content p {
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: 66%;
+  width: 200px;
+  padding-top: 30px;
+}
+
+#cta-section div {
+  border-radius: 5px;
+}
+
+/* footer */
+
+footer {
+    height: 150px;
+    clear: both;
+    text-align: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+#left-footer {
+    float: left;
+}
+
+#right-footer {
+    float: right;
+}
