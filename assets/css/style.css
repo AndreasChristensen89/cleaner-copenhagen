@@ -193,3 +193,44 @@ footer {
     font-size: 150%;
     margin-top: 30px;
 }
+
+/* whoweare */
+
+#groupintro {
+    height: 600px;
+    text-align: center;
+    background-color: silver;
+}
+
+.intro-left {
+    float: left;
+    width: 45%;
+}
+
+.intro-right {
+    float: right;
+    width: 45%;
+}
+
+.introduction {
+    clear: both;
+    border: 1px solid white;
+}
+
+.introduction div {
+    display: block;
+}
+
+.introduction img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#groupintro h2 {
+    letter-spacing: 4px;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 180%;
+    padding: 50px 20px 20px 20px;
+}
