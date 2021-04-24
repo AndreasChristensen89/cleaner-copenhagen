@@ -19,6 +19,7 @@ body {
     float: left;
     font-size: 280%;
     margin-left: 20px;
+    color: #3a3a3a;
 }
 
 #menu {
@@ -99,7 +100,7 @@ body {
 /* Call to action section */
 
 .cta-section {
-    height: 600px;
+    height: 450px;
     margin: 30px;
 }
 
@@ -167,29 +168,28 @@ body {
 
 footer {
     height: 150px;
-    clear: both;
     text-align: center;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
 }
 
 #left-footer {
     float: left;
+    width: 45%;
+    letter-spacing: 35px;
+    margin-top: 30px;
+}
+
+#left-footer li {
+    display: inline;
+}
+
+#left-footer i {
+    color: #3a3a3a;
+    font-size: 280%;
 }
 
 #right-footer {
     float: right;
+    width: 45%;
+    font-size: 150%;
+    margin-top: 30px;
 }
