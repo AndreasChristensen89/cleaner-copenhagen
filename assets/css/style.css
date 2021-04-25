@@ -197,9 +197,11 @@ footer {
 /* whoweare */
 
 #groupintro {
-    height: 600px;
+    height: 900px;
     text-align: center;
     background-color: silver;
+    margin: 20px 30px;
+    border-radius: 10px;
 }
 
 .intro-left {
@@ -215,6 +217,7 @@ footer {
 .introduction {
     clear: both;
     border: 1px solid white;
+    margin-bottom: 20px;
 }
 
 .introduction div {
@@ -234,3 +237,10 @@ footer {
     font-size: 180%;
     padding: 50px 20px 20px 20px;
 }
+
+#groupintro p {
+    padding-top: 30px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
