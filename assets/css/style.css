@@ -10,21 +10,20 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: white;
-    background-color: #BAB2B5;
+    background-color: #DCE1E3;
 }
 
 /* headings and logo */
 
 header {
-    background-color: #123C69;
+    /* background-color: #123C69; */
 }
 
 #logo {
     float: left;
     font-size: 280%;
     margin-left: 20px;
-    color: #EEE2DC;
+    color: #DE354C;
 }
 
 #menu {
@@ -42,7 +41,7 @@ header {
     list-style-type: none;
     margin-right: 30px;
     display: inline;
-    color: #EEE2DC;
+    color: #DE354C;
 }
 
 #menu a {
@@ -73,7 +72,7 @@ header {
     position: absolute;
     /* z-index: 1; */
     object-fit: cover;
-    opacity: 0.7;
+    /* opacity: 0.7; */
     box-shadow: 10px 10px 10px 10px #123C69;
 }
 
@@ -90,14 +89,14 @@ header {
 #cover-text {
     position: relative;
     z-index: 3;
-    top: 100px;
+    top: 400px;
     text-align: center;
     color: white;
     font-size: 200%;
     text-transform: uppercase;
     
     animation-name: text-zoom;
-    animation-duration: 7s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
@@ -121,36 +120,44 @@ header {
 
 #left-cta {
   float: left;
-  padding-top: 30px;
+  /* padding-top: 20px; */
   width: 20%;
   margin-left: 100px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+background-color: #932432;
+border-radius: 30px 30px 30px 30px;
 }
 
 #right-cta {
   float: right;
-  padding-top: 30px;
+  /* padding-top: 50px; */
   width: 20%;
   margin-right: 100px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  background-color: #932432;
+  border-radius: 30px 30px 30px 30px;
 }
 #center-cta {
   margin: 0 auto;
-  padding-top: 30px;
+  /* padding-top: 50px; */
   width: 20%;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+  background-color: #932432;
+  border-radius: 30px 30px 30px 30px;
 }
+
 
 .cta-section a {
     text-decoration: none;
     color: inherit;
 }
 
+
 .cta-section div {
-background-color: #AC3B61;
-border-radius: 30px;
-height: 400px;
-object-fit: cover;
+background-color: white;
+border-radius: 0 0 30px 30px;
+height: 325px;
+/* box-shadow: 0 0px 10px 10px black; */
 }
 
 .cta-section img {
