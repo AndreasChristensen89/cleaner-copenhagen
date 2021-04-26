@@ -11,6 +11,7 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background-color: rgb(179, 235, 216);
 }
 
 /* headings and logo */
@@ -53,14 +54,14 @@ body {
 }
 
 #hero-outer {
-    height: 300px;
+    height: 600px;
     width: 100%;
     position: relative;
-    padding-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 #hero-image {
-    height: 300px;
+    height: 600px;
     width: 100%;
     position: absolute;
     z-index: 1;
@@ -109,18 +110,23 @@ body {
 #left-cta {
   float: left;
   padding-top: 30px;
-  width: 30%;
+  width: 20%;
+  margin-left: 100px;
+  margin-bottom: 30px;
 }
 
 #right-cta {
   float: right;
   padding-top: 30px;
-  width: 30%;
+  width: 20%;
+  margin-right: 100px;
+  margin-bottom: 30px;
 }
 #center-cta {
   margin: 0 auto;
   padding-top: 30px;
-  width: 30%;
+  width: 20%;
+  margin-bottom: 30px;
 }
 
 .cta-section a {
@@ -129,9 +135,9 @@ body {
 }
 
 .cta-section div {
-  background-color: silver;
-  border-radius: 10px;
-  height: 450px;
+background-color: rgba(34, 95, 51, 0.4);
+border-radius: 10px;
+height: 450px;
 }
 
 .cta-section img {
@@ -199,35 +205,34 @@ footer {
 #groupintro {
     height: 900px;
     text-align: center;
-    background-color: silver;
-    margin: 20px 30px;
-    border-radius: 10px;
+    margin: 20px 150px;
 }
 
-.intro-left {
+.intro-bigside {
     float: left;
-    width: 45%;
+    width: 66%;
+    border-radius: 10px;
+    height: auto;
 }
 
-.intro-right {
+.intro-smallside {
     float: right;
-    width: 45%;
+    width: 33%;
 }
 
 .introduction {
     clear: both;
-    border: 1px solid white;
-    margin-bottom: 20px;
-}
-
-.introduction div {
-    display: block;
+    border-radius: 10px;
+    height: 30%;
+    background-color: rgba(34, 95, 51, 0.4);
+    margin-bottom: 30px;
 }
 
 .introduction img {
-    height: 300px;
-    width: 500px;
-    border-radius: 10px;
+    height: 270px;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+    opacity: 0.8;
 }
 
 #groupintro h2 {
@@ -242,6 +247,20 @@ footer {
     padding-top: 30px;
     letter-spacing: 1px;
     font-weight: 400;
+}
+
+#groupintro a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#intro-contact-link {
+    border-radius: 10px;
+    background-color: rgb(3, 102, 48);
+    z-index: 3;
+    height: 40px;
+    width: 100px;
+    text-align: center;
 }
 
 /* What we do */
