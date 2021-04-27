@@ -39,19 +39,24 @@
     </div>
 </section>
         <!-- form-->
-      <div class="form-container">
-        <!--method and action taken from previous code institute project.-->
-        <form
+<section>
+    <div class="form-section">
+   
+    <div id="left-cta">
+        <h2>What to Know</h2>
+            <div>
+            <!--method and action taken from previous code institute project.-->
+            <form
           class="contactus-form"
           method="POST"
           action="https://formdump.codeinstitute.net/"
         >
+        <h2>Proposisitions, comments, sign-up requests</h2>
           <label class="form" for="fname">First Name</label>
           <input
             id="fname"
             type="text"
-            name="firstname"
-            placeholder="Enter your first name"
+            name="first_name"
             required
           />
 
@@ -59,23 +64,21 @@
           <input
             id="lname"
             type="text"
-            name="lastname"
-            placeholder="Enter your last name"
+            name="last_name"
             required
           />
 
-          <label class="form email" for="email"> Email Address</label>
+          <label class="form" for="email"> Email Address</label>
           <input
             id="email"
             type="email"
-            name="email"
-            placeholder="Enter your email"
+            name="email_address"
             required
           />
 
             <label class="form" for="subject">Subject</label>
-            <select id="purpose" name="purpose" placeholder="Select Subject" required>
-      <option value="becomemember">Become a member</option>
+            <select id="purpose" name="purpose" required>
+      <option value="become_member">Become a member</option>
       <option value="questions">Questions</option>
       <option value="other">Other</option>
             </select>
@@ -84,16 +87,16 @@
           <textarea
             id="message"
             name="message"
-            placeholder="Write your message here"
             style="height: 150px"
             required
           ></textarea>
 
           <input class="formbutton" type="reset" value="Clear" />
           <input class="formbutton" type="submit" value="Send" />
-        </form>
-      </div>
-</body>
+            </form>
+            </div>
+    </div> 
+</section>
 <footer>
     <div id="left-footer">
     <ul>
@@ -124,4 +127,5 @@
       src="https://kit.fontawesome.com/51b9956ef3.js"
       crossorigin="anonymous"
     ></script>
+</body>
 </html>
