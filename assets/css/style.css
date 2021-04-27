@@ -70,10 +70,8 @@ header {
     height: 600px;
     width: 100%;
     position: absolute;
-    /* z-index: 1; */
     object-fit: cover;
-    /* opacity: 0.7; */
-    box-shadow: 10px 10px 10px 10px #123C69;
+    box-shadow: 5px 5px 5px 5px #123C69;
 }
 
 
@@ -114,34 +112,28 @@ header {
 
 .cta-section {
     height: 450px;
-    margin: 30px;
+    margin: 50px 30px 30px 30px;
     text-align: center;
 }
 
 #left-cta {
   float: left;
-  /* padding-top: 20px; */
   width: 20%;
   margin-left: 100px;
-  /* margin-bottom: 30px; */
 background-color: #932432;
 border-radius: 30px 30px 30px 30px;
 }
 
 #right-cta {
   float: right;
-  /* padding-top: 50px; */
   width: 20%;
   margin-right: 100px;
-  /* margin-bottom: 30px; */
   background-color: #932432;
   border-radius: 30px 30px 30px 30px;
 }
 #center-cta {
   margin: 0 auto;
-  /* padding-top: 50px; */
   width: 20%;
-  /* margin-bottom: 30px; */
   background-color: #932432;
   border-radius: 30px 30px 30px 30px;
 }
@@ -170,7 +162,7 @@ height: 325px;
   padding: 25px 10px 25px 10px;
   height: 50px;
   text-align: center;
-  color: #EEE2DC;
+  color: white;
   text-transform: uppercase;
 }
 
@@ -189,35 +181,49 @@ height: 325px;
   font-weight: 400;
 }
 
+/* animation for cta-divs  */
+
+#left-cta:hover, #right-cta:hover, #center-cta:hover {
+  animation-name: expand-hover;
+  animation-duration: 0.5s;
+}
+@keyframes expand-hover {
+   from {
+    transform: scale(1.0);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}
+
 /* footer */
 
 footer {
     height: 75px;
     text-align: center;
     background-color: #123C69;
+    line-height: 75px;
 }
 
 #left-footer {
     float: left;
-    width: 45%;
-    letter-spacing: 35px;
-    margin: 10px;
+    width: 66%;
 }
 
 #left-footer li {
     display: inline;
+    padding: 10%;
 }
 
 #left-footer i {
     color: #EEE2DC;
-    font-size: 280%;
+    font-size: 160%;
 }
 
 #right-footer {
+    color: #EEE2DC;
     float: right;
-    width: 45%;
-    font-size: 150%;
-    margin: 10px;
+    width: 33%;
 }
 
 /* whoweare */
