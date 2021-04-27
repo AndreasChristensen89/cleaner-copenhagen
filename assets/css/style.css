@@ -24,6 +24,7 @@ header {
     font-size: 280%;
     margin-left: 20px;
     color: #DE354C;
+    text-transform: uppercase;
 }
 
 #menu {
@@ -304,9 +305,14 @@ footer {
 
 /* What we do */
 
+#whatwedo {
+    height: 300px;
+}
+
 #meetup-times {
     margin: 30px;
     text-align: center;
+    height: 525px;
 }
 
 #meetup-times div {
