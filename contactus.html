@@ -39,11 +39,10 @@
     </div>
 </section>
         <!-- form-->
-<section>
-    <div class="form-section">
-   
-    <div id="left-cta">
-        <h2>What to Know</h2>
+<section id="form-section">
+    <div class="form-div">
+        <h2>Sign up here</h2>
+    <div id="form-div2">
             <div>
             <!--method and action taken from previous code institute project.-->
             <form
@@ -51,46 +50,51 @@
           method="POST"
           action="https://formdump.codeinstitute.net/"
         >
-        <h2>Proposisitions, comments, sign-up requests</h2>
-          <label class="form" for="fname">First Name</label>
+        
+          <label for="fname">First Name</label>
+          <br>
           <input
             id="fname"
             type="text"
             name="first_name"
             required
           />
-
-          <label class="form" for="lname">Last Name</label>
+        <br>
+          <label for="lname">Last Name</label>
+          <br>
           <input
             id="lname"
             type="text"
             name="last_name"
             required
           />
-
-          <label class="form" for="email"> Email Address</label>
+        <br>
+          <label for="email"> Email Address</label>
+          <br>
           <input
             id="email"
             type="email"
             name="email_address"
             required
           />
-
-            <label class="form" for="subject">Subject</label>
+        <br>
+            <label for="subject">Subject</label>
+            <br>
             <select id="purpose" name="purpose" required>
       <option value="become_member">Become a member</option>
       <option value="questions">Questions</option>
       <option value="other">Other</option>
             </select>
-
-          <label class="formlabel messageinput" for="message">Message</label>
+            <br>
+          <label for="message">Message</label>
+          <br>
           <textarea
             id="message"
             name="message"
             style="height: 150px"
             required
           ></textarea>
-
+            <br>
           <input class="formbutton" type="reset" value="Clear" />
           <input class="formbutton" type="submit" value="Send" />
             </form>

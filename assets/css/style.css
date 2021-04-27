@@ -15,10 +15,6 @@ body {
 
 /* headings and logo */
 
-header {
-    /* background-color: #123C69; */
-}
-
 #logo {
     float: left;
     font-size: 280%;
@@ -332,41 +328,38 @@ footer {
 
 /* contact page */
 
-.form-section {
-    height: 450px;
-    margin: 50px 30px 30px 30px;
+#form-section {
+    height: 600px;
     text-align: center;
+    margin: 30px 0;
 }
 
-/* .form-container {
-    height: 600px;
-    width: 100%;
-    text-align: center;
-    background-color: silver;
-    /* clear: left; */
-} */
+.form-div {
+    margin-left: 25%;
+    width: 50%;
+    background-color: #932432;
+    border-radius: 30px 30px 30px 30px;
+}
+
+.form-div h2 {
+    color: white;
+}
+
+#form-div2 {
+background-color: white;
+border-radius: 0 0 30px 30px;
+}
 
 .contactus-form {
-    margin: 150px 10% 0 0;
-    /* max-width: 400px; */
+    margin: 20px 10% 0 0;
     left: 10%;
     padding: 30px;
 }
 
-/* .signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
-} */
-
-/* .contactus-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-} */
+#fname, #lname, #email #purpose {
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 .form {
     width: 100%;
@@ -374,51 +367,32 @@ footer {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-    clear: both;
 }
 
-/* .text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-} */
+#message {
+    border: 1px solid black;
+    border-radius: 10px;
+}
 
 .form:hover {
     border-color: #f16c6b;
 }
 
-.formbutton {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
-    display: block;
+.formlabel-messageinput {
+    border: 3px solid black;
 }
 
-/* .join-button {
+.formbutton {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 15px 32px 15px 32px;
-    text-align: center;
     font-size: 100%;
     background-color: #f16c6b;
     color: #fafafa;
-    display: block;
-} */
+    display: inline;
+}
 
 .formbutton:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
-
-/* .join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-} */
