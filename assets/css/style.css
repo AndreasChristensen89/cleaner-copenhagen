@@ -319,11 +319,28 @@ footer {
     height: 300px;
     padding: 100px 30px 30px 30px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 10%;
 }
 
-#meetup-times h3 {
+#meetup-times h2 {
     text-align: center;
+    color: white;
+}
+
+#kongens-have {
+    background: url(/assets/images/Kongens-have.jpg) no-repeat center;
+}
+
+#fælledparken {
+    background: url(/assets/images/Fælledparken.jpg) no-repeat center;
+}
+
+#søndermarken {
+    background: url(/assets/images/Søndermarken.jpg) no-repeat;
+}
+
+#utterslev-mose {
+    background: url(/assets/images/Utterslev-mose.jpg) no-repeat center;
 }
 
 /* contact page */
