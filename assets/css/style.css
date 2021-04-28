@@ -334,31 +334,37 @@ footer {
     margin: 30px 0;
 }
 
-.form-div {
-    margin-left: 25%;
-    width: 50%;
+#form-section div {
+    width: 525px;
+}
+
+#form-div-back {
+    margin-left: 33%;
+    /* width: 600px; */
     background-color: #932432;
     border-radius: 30px 30px 30px 30px;
 }
 
-.form-div h2 {
+#form-div-back h2 {
     color: white;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
-#form-div2 {
+#form-div-front {
 background-color: white;
 border-radius: 0 0 30px 30px;
 }
 
 .contactus-form {
-    margin: 20px 10% 0 0;
-    left: 10%;
     padding: 30px;
 }
 
-#fname, #lname, #email #purpose {
+#fname, #lname, #subject, #email, #message {
     border: 1px solid black;
     border-radius: 10px;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 .form {
@@ -369,9 +375,8 @@ border-radius: 0 0 30px 30px;
     border-radius: 2px;
 }
 
-#message {
-    border: 1px solid black;
-    border-radius: 10px;
+#purpose {
+    margin-bottom: 30px;
 }
 
 .form:hover {

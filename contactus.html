@@ -40,9 +40,9 @@
 </section>
         <!-- form-->
 <section id="form-section">
-    <div class="form-div">
+    <div id="form-div-back">
         <h2>Sign up here</h2>
-    <div id="form-div2">
+    <div id="form-div-front">
             <div>
             <!--method and action taken from previous code institute project.-->
             <form
@@ -80,13 +80,13 @@
         <br>
             <label for="subject">Subject</label>
             <br>
-            <select id="purpose" name="purpose" required>
+            <select id="subject" name="subject" required>
       <option value="become_member">Become a member</option>
       <option value="questions">Questions</option>
       <option value="other">Other</option>
             </select>
             <br>
-          <label for="message">Message</label>
+          <label id="message-label" for="message">Message</label>
           <br>
           <textarea
             id="message"
