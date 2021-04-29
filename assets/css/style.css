@@ -175,17 +175,9 @@ height: 325px;
 /* animation for cta-divs  */
 
 #left-cta:hover, #right-cta:hover, #center-cta:hover {
-  animation-name: expand-hover;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-}
-@keyframes expand-hover {
-   from {
-    transform: scale(1.0);
-  }
-  to {
-    transform: scale(1.05);
-  }
+transform: scale(1.1);
+-webkit-box-shadow: 0px 20px 10px 15px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
 }
 
 /* footer */
@@ -218,19 +210,12 @@ footer {
     width: 33%;
 }
 
-#fb-link, #yt-link, #twitter-link, #insta-link {
-    background: #ffffff;
-    color: #404040 !important;
-    transition: all 0.3s ease 0s;
-}
-
-#fb-link:hover, #yt-link:hover, #twitter-link:hover, #insta-link:hover {
+#facebook:hover, #youtube:hover, #twitter:hover, #instagram:hover {
 color: #404040 !important;
-/* font-weight: 700 !important; */
-/* letter-spacing: 3px; */
+font-weight: 700 !important;
+letter-spacing: 3px;
 background: none;
--webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.57);
+-webkit-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;
 }
 
@@ -323,15 +308,11 @@ padding: 20px;
 border-radius: 10px;
 border: none;
 transition: all 0.4s ease 0s;
-font-family: inherit;
 }
 
 #contact_button:hover {
 background: #434343;
 letter-spacing: 1px;
--webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
--moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
 }
 
@@ -366,6 +347,12 @@ transition: all 0.4s ease 0s;
     padding: 100px 30px 30px 30px;
     margin-top: 20px;
     border-radius: 10%;
+}
+
+#meetup-times div:hover {
+transform: scale(1.05);
+-webkit-box-shadow: 0px 20px 10px 15px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
 }
 
 #meetup-times h3 {
