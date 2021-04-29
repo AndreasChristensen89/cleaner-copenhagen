@@ -176,6 +176,7 @@ height: 325px;
 #left-cta:hover, #right-cta:hover, #center-cta:hover {
   animation-name: expand-hover;
   animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 @keyframes expand-hover {
    from {
