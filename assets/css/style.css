@@ -150,7 +150,7 @@ height: 325px;
 }
 
 .cta-section h2 {
-  padding: 25px 10px 25px 10px;
+  padding: 15px 10px 0px 10px;
   height: 50px;
   text-align: center;
   color: white;
@@ -218,59 +218,89 @@ footer {
     width: 33%;
 }
 
+#fb-link, #yt-link, #twitter-link, #insta-link {
+    background: #ffffff;
+    color: #404040 !important;
+    transition: all 0.3s ease 0s;
+}
+
+#fb-link:hover, #yt-link:hover, #twitter-link:hover, #insta-link:hover {
+color: #404040 !important;
+/* font-weight: 700 !important; */
+/* letter-spacing: 3px; */
+background: none;
+-webkit-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 5px -2px rgba(0,0,0,0.57);
+transition: all 0.3s ease 0s;
+}
+
 /* whoweare */
 
 #groupintro {
-    height: 900px;
+    height: 600px;
     text-align: center;
     margin: 20px 150px;
 }
 
-.intro-upleft {
+#intro-upleft {
     float: left;
-    width: 66%;
     border-radius: 10px;
-    height: auto;
+    padding-left: 5%;
 }
 
-.intro-upright {
+#intro-upright {
     float: right;
-    width: 33%;
+    width: 35%;
 }
 
 #intro-lowright {
-    float: right;
-    width: 66%;
+    float: center;
     border-radius: 10px;
-    height: auto;
 }
 
 #intro-lowleft {
     float: left;
-    width: 33%;
+    width: 35%;
 }
 
 .introduction {
     clear: both;
+    margin: 20px;
     border-radius: 10px;
-    height: 30%;
+    height: 280px;
     background-color: rgb(211, 203, 161);
-    margin-bottom: 30px;
 }
 
 .introduction img {
-    height: 270px;
+    height: 280px;
+}
+
+.introduction p {
+    font-size: 16pt;
+}
+
+.introduction h3 {
+    font-size: 20pt;
+}
+
+#intro-upright img {
     width: 100%;
     border-radius: 0 10px 10px 0;
     opacity: 0.8;
 }
 
+#intro-lowleft img {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    opacity: 0.8;
+}
+
 #groupintro h2 {
     letter-spacing: 4px;
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-weight: 900;
     font-size: 200%;
-    padding: 50px 20px 20px 20px;
+    padding: 50px 20px 0 20px;
     color: #61892f;
 }
 
@@ -285,14 +315,28 @@ footer {
     color: inherit;
 }
 
-#intro-contact-link {
-    border-radius: 10px;
-    background-color: rgb(8, 150, 72);
-    height: 50px;
-    width: 150px;
-    text-align: center;
-    margin-top: 100px;
-    padding: 5px;
+#contact_button {
+color: #fff !important;
+text-transform: uppercase;
+background: #61892F;
+padding: 20px;
+border-radius: 10px;
+border: none;
+transition: all 0.4s ease 0s;
+font-family: inherit;
+}
+
+#contact_button:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+#intro-contact-link h3 {
+    font-weight: bold;
 }
 
 /* What we do */
