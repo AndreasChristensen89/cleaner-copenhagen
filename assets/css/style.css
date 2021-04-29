@@ -77,8 +77,6 @@ body {
   width: 100%;
   height: 300px;
   position: relative;
-  z-index: 2;
-
 }
 
 #cover-text {
@@ -89,19 +87,22 @@ body {
     color: white;
     font-size: 200%;
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.4);
     
     animation-name: text-zoom;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
 }
 
 @keyframes text-zoom {
     from {
         opacity: 0;
+        top: 225px;
     }
 
     to {
         transform: 1;
+        top: 200px;
     }
 }
 
@@ -192,7 +193,7 @@ height: 325px;
 footer {
     height: 75px;
     text-align: center;
-    background-color: #6B6E70;
+    background-color: rgb(177, 142, 96);
     line-height: 75px;
 }
 
@@ -270,6 +271,7 @@ footer {
     font-weight: 900;
     font-size: 200%;
     padding: 50px 20px 20px 20px;
+    color: #61892f;
 }
 
 #groupintro p {
@@ -370,7 +372,6 @@ footer {
 
 #form-div-back {
     margin-left: 33%;
-    /* width: 600px; */
     background-color: #61892f;
     border-radius: 30px 30px 30px 30px;
 }
@@ -422,12 +423,12 @@ border-radius: 0 0 30px 30px;
     border-radius: 10px;
     padding: 15px 32px 15px 32px;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: #836225;
     color: #fafafa;
     display: inline;
 }
 
 .formbutton:hover {
     background-color: #fafafa;
-    color: #f16c6b;
+    color: #836225;
 }
