@@ -181,7 +181,7 @@ height: 325px;
 
 #left-cta:hover, #right-cta:hover, #center-cta:hover {
 transform: scale(1.1);
--webkit-box-shadow: 0px 20px 10px 15px rgba(0,0,0,0.57);
+box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
 transition: all 0.3s ease 0s;
 }
 
@@ -216,75 +216,48 @@ footer {
 }
 
 #facebook:hover, #youtube:hover, #twitter:hover, #instagram:hover {
-color: #404040 !important;
-font-weight: 700 !important;
-letter-spacing: 3px;
-background: none;
--webkit-box-shadow: 0px 10px 10px 5px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;
+letter-spacing: 3px;
+box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* whoweare */
 
 .groupintro {
-    height: 600px;
+    height: 300px;
     text-align: center;
-    margin: 20px 150px;
+    text-align: center;
+    /* margin: 20px 150px; */
 }
 
-#intro-upleft {
+.intro-left {
+    /* padding-left: 5%; */
     float: left;
-    border-radius: 10px;
-    padding-left: 5%;
+    height: 300px;
+    width: 45%;
+    margin-left: 10%;
 }
 
-#intro-upright {
-    float: right;
-    width: 35%;
-}
-
-#intro-lowright {
-    float: center;
-    border-radius: 10px;
-}
-
-#intro-lowleft {
+.intro-right {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
     float: left;
-    width: 35%;
-
+    border-radius: 50%;
+    margin-left: auto;
 }
 
-.introduction {
-    clear: both;
-    margin: 20px;
-    border-radius: 10px;
-    height: 280px;
-    background-color: rgb(211, 203, 161);
+.intro-right-circle {
+    border-radius: 50%;
 }
 
-.introduction img {
-    height: 280px;
-}
-
-.introduction p {
-    font-size: 16pt;
-}
-
-.introduction h3 {
-    font-size: 15pt;
-    padding-top: 10px;
-}
-
-#intro-upright img {
-    width: 100%;
-    border-radius: 0 10px 10px 0;
-    opacity: 0.8;
-}
-
-#intro-lowleft img {
-    width: 100%;
-    border-radius: 10px 0 0 10px;
-    opacity: 0.8;
+.groupintro img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    margin-right: 30px;
 }
 
 .groupintro h2 {
@@ -296,8 +269,13 @@ transition: all 0.3s ease 0s;
     color: #61892f;
 }
 
-#intro-lowright h2 {
+.groupintro h2 {
     padding: 70px 0px 20px 0px;
+}
+
+.groupintro i {
+    font-size: 60pt;
+    color: #61892f;
 }
 
 .groupintro p {
@@ -311,22 +289,11 @@ transition: all 0.3s ease 0s;
     color: inherit;
 }
 
-#contact_button {
-color: #fff !important;
-font-size: 70pt;
-text-align: center;
-height: auto;
-}
-
 #contact_button:hover {
+transform: scale(0.9);
+transition: all 0.5s ease 0s;
+box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 border-radius: 20px;
-font-size: 80pt;
-transition: all 0.4s ease 0s;
-}
-
-
-#intro-contact-link h3 {
-    font-weight: bold;
 }
 
 /* What we do */
@@ -336,26 +303,40 @@ transition: all 0.4s ease 0s;
     text-align: center;
 }
 
-.whatwedo li {
-    list-style-type: none;
-}
-
-#wwd-large {
-    height: 225px;
-    background-color: rgb(211, 203, 161);
-    margin: 0 20px;
-    width: 95%;
-    border-radius: 10px;
-}
-
-.wwd-small div {
+/* #wwd-top, #eed-bottom {
     height: 300px;
-    background-color: rgb(211, 203, 161);
-    margin: 20px;
-    width: 30%;
-    border-radius: 10px;
+} */
+
+#trash-left {
     float: left;
-    border: 1px solid white;
+    width: 33%;
+}
+
+#trash-right {
+    float: right;
+    width: 33%;
+    clear: right;
+}
+
+#trash-center {
+    margin: 0 auto;
+    width: 33%;
+}
+
+#center-circle {
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    float: left;
+    border-radius: 50%;
+    margin-left: auto;
+}
+
+#center-circle img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
 }
 
 .whatwedo h2 {
@@ -374,6 +355,21 @@ transition: all 0.4s ease 0s;
     padding: 15px 20px;
     font-size: 16pt;
     font-weight: 700;
+}
+
+#family {
+    float: left;
+    width: 33%;
+}
+
+#join {
+    float: right;
+    width: 33%;
+}
+
+#bring {
+    margin: 0 auto;
+    width: 33%;
 }
 
 #meetup-times {
@@ -395,8 +391,8 @@ transition: all 0.4s ease 0s;
 
 #meetup-times div:hover {
 transform: scale(1.05);
--webkit-box-shadow: 0px 20px 10px 15px rgba(0,0,0,0.57);
 transition: all 0.3s ease 0s;
+box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #meetup-times h3 {
