@@ -224,37 +224,30 @@ box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
 /* whoweare */
 
 .groupintro {
-    height: 450px;
+    height: 1200px;
     text-align: center;
 }
 
 .intro-div {
-    height: 75px;
-    clear: both;
-    width: 20%;
-    margin: 20px;
-}
-
-.intro-right {
-    width: 150px;
-    height: 150x;
-    padding: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.4);
-    float: left;
-    border-radius: 50%;
-    margin-left: 120px;
-    clear: both;
-}
-
-.intro-right-circle {
-    border-radius: 50%;
-}
-
-.groupintro img {
-    border-radius: 50%;
-    object-fit: cover;
     height: 150px;
-    width: 150px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+#intro-pic {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#intro-pic-circle {
+    background: url(/assets/images/children-litter.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    border-radius: 50%;
 }
 
 .groupintro h1 {
@@ -278,7 +271,7 @@ box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
     font-weight: 600;
     font-size: 150%;
     color: #61892f;
-    padding: 20px;
+    padding: 60px;
 }
 
 .groupintro i {
@@ -286,14 +279,27 @@ box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
     color: #61892f;
 }
 
-/* .groupintro p {
+.groupintro p {
     padding: 20px 0px;
     letter-spacing: 1px;
     font-weight: 400;
     font-size: 130%;
-} */
+}
 
-#intro-div:hover {
+.groupintro a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact-div {
+    height: 225x;
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+#contact-div:hover {
 transform: scale(0.9);
 transition: all 0.5s ease 0s;
 box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
