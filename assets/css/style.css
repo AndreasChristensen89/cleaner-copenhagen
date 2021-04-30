@@ -174,7 +174,7 @@ height: 325px;
 .cta-section p {
   padding: 10px 10px 25px 10px;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* animation for cta-divs  */
@@ -271,14 +271,8 @@ transition: all 0.3s ease 0s;
 }
 
 .introduction h3 {
-    font-size: 20pt;
-}
-
-#intro-lowright i {
-    /* color: black; */
-    font-size: 25pt;
-    /* margin-top: 10px; */
-    /* padding-top: 20px; */
+    font-size: 15pt;
+    padding-top: 10px;
 }
 
 #intro-upright img {
@@ -303,7 +297,7 @@ transition: all 0.3s ease 0s;
 }
 
 #intro-lowright h2 {
-    padding: 70px;
+    padding: 70px 0px 20px 0px;
 }
 
 .groupintro p {
@@ -319,17 +313,14 @@ transition: all 0.3s ease 0s;
 
 #contact_button {
 color: #fff !important;
-text-transform: uppercase;
-background: #61892F;
-padding: 30px 50px;
-border-radius: 10px;
-border: none;
-transition: all 0.4s ease 0s;
+font-size: 70pt;
+text-align: center;
+height: auto;
 }
 
 #contact_button:hover {
-background: #434343;
-letter-spacing: 1px;
+border-radius: 20px;
+font-size: 80pt;
 transition: all 0.4s ease 0s;
 }
 
