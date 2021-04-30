@@ -224,40 +224,53 @@ box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
 /* whoweare */
 
 .groupintro {
-    height: 300px;
+    height: 450px;
     text-align: center;
-    text-align: center;
-    /* margin: 20px 150px; */
 }
 
 .intro-left {
-    /* padding-left: 5%; */
-    float: left;
     height: 300px;
-    width: 45%;
-    margin-left: 10%;
+    border-top: 2px solid #61892f;
+    border-bottom: 2px solid #61892f;
 }
 
 .intro-right {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     float: left;
     border-radius: 50%;
-    margin-left: auto;
+    margin-left: 120px;
 }
 
 .intro-right-circle {
     border-radius: 50%;
 }
 
+.intro-div {
+    float: left;
+    height: 300px;
+    width: 45%;
+    /* margin-top: 3%;
+    margin-left: 20%; */
+    border-radius: 40px;
+    border: 2px solid #61892f;
+}
+
 .groupintro img {
     border-radius: 50%;
     object-fit: cover;
-    height: 250px;
-    width: 250px;
-    margin-right: 30px;
+    height: 300px;
+    width: 300px;
+}
+
+.groupintro h1 {
+    color: #61892f;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 250%;
+    margin: 40px;
 }
 
 .groupintro h2 {
@@ -265,12 +278,15 @@ box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
     font-weight: 900;
     font-size: 200%;
-    padding: 50px 20px 0 20px;
     color: #61892f;
+    padding: 30px 0px;
 }
 
-.groupintro h2 {
-    padding: 70px 0px 20px 0px;
+.groupintro h3 {
+    font-weight: 600;
+    font-size: 150%;
+    color: #61892f;
+    padding: 20px;
 }
 
 .groupintro i {
@@ -279,21 +295,16 @@ box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .groupintro p {
-    padding-top: 30px;
+    padding: 20px 0px;
     letter-spacing: 1px;
     font-weight: 400;
+    font-size: 130%;
 }
 
-.groupintro a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#contact_button:hover {
+#intro-div:hover {
 transform: scale(0.9);
 transition: all 0.5s ease 0s;
 box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
-border-radius: 20px;
 }
 
 /* What we do */
