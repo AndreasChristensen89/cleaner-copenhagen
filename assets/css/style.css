@@ -97,12 +97,12 @@ body {
 @keyframes text-zoom {
     from {
         opacity: 0;
-        top: 225px;
+        top: 300px;
     }
 
     to {
         transform: 1;
-        top: 200px;
+        top: 275px;
     }
 }
 
@@ -163,7 +163,12 @@ height: 325px;
     height: 250px;
     border-radius: 10%;
     object-fit: cover;
-    
+}
+
+.cta-section i {
+    padding: 30px 20px 20px 20px;
+    font-size: 120pt;
+    color: green;
 }
 
 .cta-section p {
@@ -267,6 +272,13 @@ transition: all 0.3s ease 0s;
 
 .introduction h3 {
     font-size: 20pt;
+}
+
+#intro-lowright i {
+    /* color: black; */
+    font-size: 25pt;
+    /* margin-top: 10px; */
+    /* padding-top: 20px; */
 }
 
 #intro-upright img {
