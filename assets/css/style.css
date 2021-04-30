@@ -308,13 +308,13 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 /* What we do */
 
 .whatwedo {
-    height: 600px;
+    height: 750px;
     text-align: center;
 }
 
-/* #wwd-top, #eed-bottom {
-    height: 300px;
-} */
+#wwd-top, #wwd-bottom {
+    height: 450px;
+}
 
 #trash-left {
     float: left;
@@ -324,7 +324,6 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 #trash-right {
     float: right;
     width: 33%;
-    clear: right;
 }
 
 #trash-center {
@@ -333,37 +332,49 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #center-circle {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    float: left;
-    border-radius: 50%;
-    margin-left: auto;
+    border-radius: 30%;
+    margin: 0 auto;
 }
 
-#center-circle img {
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+#circle-bg {
+    background: url(/assets/images/plastic-bag-bush.jpg) no-repeat center center;
+    background-size: cover;
+    background-position-x: 90%;
+    border-radius: 30%;
+    height: 100%;
 }
 
 .whatwedo h2 {
     color: #61892F;
     font-size: 30pt;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .whatwedo h3 {
     color: #61892F;
-    font-size: 18pt;
+    font-size: 20pt;
+    font-weight: 600;
     padding: 20px;
 }
 
 .whatwedo p {
-    padding: 15px 20px;
+    padding: 20px 20px;
     font-size: 16pt;
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.whatwedo li {
+    list-style-type: circle;
+    list-style-position: inside;
+    font-size: 16pt;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 
 #family {
@@ -441,7 +452,7 @@ box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
 /* contact page */
 
 #form-section {
-    height: 600px;
+    height: 675px;
     text-align: center;
     margin: 30px 0;
 }
