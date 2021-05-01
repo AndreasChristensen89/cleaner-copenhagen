@@ -167,7 +167,7 @@ height: 325px;
 
 .cta-section i {
     padding: 30px 20px 20px 20px;
-    font-size: 120pt;
+    font-size: 90pt;
     color: green;
 }
 
@@ -488,7 +488,7 @@ box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #form-div-back {
-    margin-left: 33%;
+    margin: 0 auto;
     background-color: #61892f;
     border-radius: 30px 30px 30px 30px;
 }
@@ -560,5 +560,36 @@ margin-bottom: 20px;
 
 /* for larger screens */
 @media screen and (max-width: 1340px) {
+#menu {
+    letter-spacing: 1px;
+}
 
+#menu li {
+    margin-right: 15px;
+    font-size: 14pt;
+}
+
+.whatwedo p {
+    padding: 20px 40px;
+}
+
+#meetup-times div {
+    width: 15%;
+    height: 50%;
+    padding: 80px 30px 30px 30px;
+    }
+#kongens-have {
+    margin-left: 10%;
+}
+#meetup-times h3 {
+        line-height: 40pt;
+}
+
+#fælledparken {
+    background-position-x: 40%;
+}
+
+#utterslev-mose {
+    background-position-x: 40%;
+}
 }
