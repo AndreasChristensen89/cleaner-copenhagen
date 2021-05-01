@@ -310,12 +310,18 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 /* What we do */
 
 .whatwedo {
-    height: 750px;
+    height: 700px;
     text-align: center;
 }
 
 #wwd-top, #wwd-bottom {
-    height: 450px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#wwd-top {
+   background-color: silver;
+   border-radius: 10px;
 }
 
 #trash-left {
@@ -340,11 +346,11 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #center-circle {
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     padding: 5px;
     border: 1px solid rgba(0, 0, 0, 0.4);
-    border-radius: 30%;
+    border-radius: 10%;
     margin: 0 auto;
 }
 
@@ -352,7 +358,7 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
     background: url(/assets/images/plastic-bag-bush.jpg) no-repeat center center;
     background-size: cover;
     background-position-x: 90%;
-    border-radius: 30%;
+    border-radius: 10%;
     height: 100%;
 }
 
@@ -371,7 +377,7 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 .whatwedo p {
-    padding: 20px 20px;
+    padding: 40px;
     font-size: 16pt;
     font-weight: 400;
     letter-spacing: 3px;
@@ -408,7 +414,7 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 #meetup-times {
     margin: 30px;
     text-align: center;
-    height: 525px;
+    height: 600px;
 }
 
 #meetup-times div {
