@@ -327,16 +327,12 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 #trash-left {
     float: left;
     width: 33%;
-    border-bottom: 1px solid #61892F;
-    border-top: 1px solid #61892F;
     margin-left: 20px;
 }
 
 #trash-right {
     float: right;
     width: 33%;
-    border-bottom: 1px solid #61892F;
-    border-top: 1px solid #61892F;
     margin-right: 20px;
 }
 
@@ -412,7 +408,7 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #meetup-times {
-    margin: 30px;
+    margin-left: 20px;
     text-align: center;
     height: 600px;
 }
@@ -447,6 +443,7 @@ box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
     color: #61892f;
     font-weight: bold;
     font-size: 30pt;
+    clear: both;
 }
 
 #kongens-have {
@@ -557,4 +554,11 @@ margin-bottom: 20px;
 .formbutton:hover {
     background-color: #fafafa;
     color: #836225;
+}
+
+/* Media queries */
+
+/* for larger screens */
+@media screen and (max-width: 1340px) {
+
 }
