@@ -110,7 +110,7 @@ body {
 
 .cta-section {
     height: 450px;
-    margin: 50px 30px 30px 30px;
+    padding: 50px 30px 30px 30px;
     text-align: center;
 }
 
@@ -118,8 +118,8 @@ body {
   float: left;
   width: 20%;
   margin-left: 100px;
-background-color: #61892f;
-border-radius: 30px 30px 30px 30px;
+  background-color: #61892f;
+  border-radius: 30px 30px 30px 30px;
 }
 
 #right-cta {
@@ -157,13 +157,13 @@ height: 325px;
   text-transform: uppercase;
 }
 
-.cta-section img {
+/* .cta-section img {
     padding: 10px;
     width: 90%;
     height: 250px;
     border-radius: 10%;
     object-fit: cover;
-}
+} */
 
 .cta-section i {
     padding: 30px 20px 20px 20px;
@@ -625,5 +625,51 @@ margin-bottom: 20px;
 }
 
 @media screen and (max-width: 950px) {
+.cta-section {
+    height: 1200px;
+    text-align: center;
+    padding: 0;
+}
+
+#left-cta {
+  margin-left: unset;
+}
+
+#right-cta {
+  margin-right: unset;
+}
+#center-cta {
+  margin: unset;
+}
+
+#left-cta, #right-cta, #center-cta {
+    width: 80%;
+    height: 200px;
+    float: none;
+    margin: 100px auto 200px auto;
+}
+
+.cta-section div {
+width: 100%;
+margin-bottom: 150px;
+}
+
+.cta-section h2 {
+  padding: 15px 10px 0px 10px;
+  height: 30px;
+}
+
+/* .cta-section i {
+    padding: 30px 20px 20px 20px;
+    font-size: 90pt;
+    color: green;
+} */
+
+.cta-section p {
+  padding: 10px 10px 25px 10px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 130%;
+}
 
 }
