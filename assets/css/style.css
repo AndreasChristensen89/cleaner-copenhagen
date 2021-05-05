@@ -26,7 +26,6 @@ body {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    overflow: hidden;
     text-align: right;
 }
 
@@ -61,9 +60,8 @@ body {
     width: 100%;
     position: relative;
     margin-bottom: 30px;
+    overflow: hidden;
 }
-
-
 
 #hero-image {
     height: 600px;
@@ -625,6 +623,15 @@ margin-bottom: 20px;
 }
 
 @media screen and (max-width: 950px) {
+
+#menu {
+    clear: left;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
 .cta-section {
     height: 1200px;
     text-align: center;
@@ -659,17 +666,32 @@ margin-bottom: 150px;
   height: 30px;
 }
 
-/* .cta-section i {
-    padding: 30px 20px 20px 20px;
-    font-size: 90pt;
-    color: green;
-} */
-
-.cta-section p {
-  padding: 10px 10px 25px 10px;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-size: 130%;
+.cta-section i {
+    padding: 50px 20px 20px 20px;
 }
 
+}
+
+@media screen and (max-width: 500px) {
+
+#logo {
+    margin: 0 auto;
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#menu {
+    letter-spacing: 2px;
+    /* line-height: 50px; */
+    text-align: center;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+    width: 100%;
+}
+
+#menu > li {
+    font-size: 70%;
+    /* float: center; */
+}
 }
