@@ -953,41 +953,26 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
     font-size: 50%;
     }
 
-/* #logo {
-    font-size: 200%;
-    line-height: 50px;
-    } */
-
 .groupintro {
     height: 1575px;
 }
 
-.groupintro h1 {
-    width: 100%;
-}
-
  #intro-left {
-    height: 200px;
+    margin: 50px auto 200px auto;
 }
 
 #intro-right {
-    height: 200px;
-    margin: 130px auto;
+    margin: 200px auto 250px auto;
 }
 
 #intro-center {
+    margin: 200px auto 100px auto;
     height: 250px;
     width: 250px;
 }
 
 #contact-div {
-    width: 80%;
-    margin: 50px auto auto auto;
-}
-
-.groupintro p {
-    border-top: none;
-    border-bottom: none;
+    margin-bottom: 50px;
 }
 
 }
