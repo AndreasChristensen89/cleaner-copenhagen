@@ -155,14 +155,6 @@ height: 325px;
   text-transform: uppercase;
 }
 
-/* .cta-section img {
-    padding: 10px;
-    width: 90%;
-    height: 250px;
-    border-radius: 10%;
-    object-fit: cover;
-} */
-
 .cta-section i {
     padding: 30px 20px 20px 20px;
     font-size: 90pt;
@@ -601,9 +593,7 @@ margin-bottom: 20px;
     height: 50%;
     padding: 80px 30px 30px 30px;
     }
-/* #kongens-have {
-    margin-left: 10%;
-} */
+
 #meetup-times h3 {
     line-height: 40pt;
 }
@@ -870,7 +860,7 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
 }
 
 #menu > li {
-    font-size: 70%;
+    font-size: 100%;
 }
 
 #cover-text h2 {
@@ -950,11 +940,34 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
 
 @media screen and (max-width: 400px) { 
 #menu > li {
-    font-size: 50%;
+    font-size: 65%;
     }
+    
+    /* what we do */
+.whatwedo {
+    height: 1875px;
+}
 
+#center-circle {
+    width: 250px;
+    height: 250px;
+}
+
+#wwd-top {
+    margin: 50px auto 100px auto;
+}
+
+#wwd-bottom {
+    margin-top: 200px;
+}
+
+#meetup-times {
+    margin-bottom: auto;
+}
+
+    /* about us */
 .groupintro {
-    height: 1575px;
+    height: 1650px;
 }
 
  #intro-left {
@@ -975,4 +988,32 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
     margin-bottom: 50px;
 }
 
+}
+
+/* aboutus page for smallest screens */
+@media screen and (max-width: 300px) { 
+#menu > li {
+    font-size: 58%;
+
+}
+.whatwedo {
+    height: 1950px;
+}
+
+#center-circle {
+    width: 200px;
+    height: 200px;
+}
+
+#wwd-top {
+    margin: 50px auto 200px auto;
+}
+
+#wwd-bottom {
+    margin-top: 200px;
+}
+
+#meetup-times {
+    margin-bottom: 0px;
+}
 }
