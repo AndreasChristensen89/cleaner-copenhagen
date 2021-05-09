@@ -444,21 +444,21 @@ box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
 #kongens-have {
-    background-image: url(/assets/images/Kongens-have.jpg);
+    background-image: url(/assets/images/kongens-have.jpg);
     background-size: cover;
     background-position-x: 70%;
 }
 
 #fælledparken {
-    background: url(/assets/images/Fælledparken.jpg) no-repeat center;
+    background: url(/assets/images/fælledparken.jpg) no-repeat center;
 }
 
 #søndermarken {
-    background: url(/assets/images/Søndermarken.jpg) no-repeat;
+    background: url(/assets/images/søndermarken.jpg) no-repeat;
 }
 
 #utterslev-mose {
-    background: url(/assets/images/Utterslev-mose.jpg) no-repeat center;
+    background: url(/assets/images/utterslev-mose.jpg) no-repeat center;
 }
 
 /* contact page */
