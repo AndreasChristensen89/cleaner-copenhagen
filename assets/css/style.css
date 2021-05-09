@@ -59,11 +59,12 @@ body {
     height: 600px;
     width: 100%;
     position: relative;
-    margin-bottom: 30px;
     overflow: hidden;
+    margin-bottom: 30px;
 }
 
 #hero-image {
+    background: url(../images/hero-image-larger.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
     position: absolute;
