@@ -49,12 +49,19 @@ Languages used
 - CSS
 - (upcoming) Markdown
 
+Accesibility (upcoming)
+All non-text elements will be marked with alt text, contrast between background and foreground colors.
+
 Testing
 - Chrome Developer Tools
 - (upcoming) Test on Firefox, Microsoft Edge
-- (upcoming) W3 Markup Validation Service
+- (upcoming) W3 Markup Validation Service for HTML
+- (upcoming) Jigsaw test for CSS
 
 Bugs
+
+Deployment
+Website is deployed via GitHub
 
 Credit/Attributions for Pictures
 <a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
@@ -65,3 +72,11 @@ Credit/Attributions for Pictures
 <a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
 <a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
 <a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
+
+Future:
+- Maybe remove animation for media queries
+- Use semantic markup to structure HTML
+- Removed commented out code
+- Insert screenshots in readme file of finished project
+- GO thorugh CSS code to remove possible inactive/useless code
+- Use markup language on readme file
