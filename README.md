@@ -1,45 +1,67 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Cleaner Copenhagen
 
-Welcome AndreasChristensen89,
+Table of contents:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Purpose of website:
+Introduce people to a fictional group that picks up litter in the parks of Copenhagen.
+This group consists of volunteers and relies on word of mouth and visitors to this website.
+The website should provide a quick overview of what the group is, when they operate, how to get in contact with them, and how to join.
 
-## Gitpod Reminders
+User Experience Considerations:
+Target group is people living in or close to Copenhagen. Anyone able to show up in person can join, so location is the only criteria.
+Strategy
+Scope
+Structure
+Skeleton
+Surface
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The User
+- What are the goals for a first time visitor
+- What are the goals for a returning visitor
 
-`python3 -m http.server`
+Design choices
+- Overview
+    The aim is to provide easy-to-navigate pages that make it easy and clear to navigate around, with many links to the contact/join page.
+    Information should not be detailed but fast to read and understand, and straight to the point.
 
-A blue button should appear to click: _Make Public_,
+- Color Scheme 
+Colors are chosen to represent a "natural" scenery that hint of being in a park/forest, 
+which hopefully leads users to envision being outside in nature.
+    - Background color: #EAE7DC
+    - Logo, titles, navbar elements, top of call-to-action divs, top of form: #61892F
+    - Cover text hero-image, Call-to-action divs headings: standard white
+    - Call-to-action icons: standard green
+    - Footer background color: rgb(177, 142, 96)
+    - Footer icons and text: #EEE2DC
 
-Another blue button should appear to click: _Open Browser_.
+- Choice of text
+For text choice I leaned towards the Love Running project, which used Lato and Oswald. Google Fonts provides fonts that are similar,
+so I went with Lato with a different text-partner.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Pictures
+    All images were taken from Freepik.com, which requires attributions.
+    Images were compressed using the webpage tinypng.com
+    Sunny, bright and green pictures were targeted to with the aim of thinking of nice weather, as the activity would be outside.
+- Page content
 
-A blue button should appear to click: _Make Public_,
+Languages used
+- HTML
+- CSS
+- (upcoming) Markdown
 
-Another blue button should appear to click: _Open Browser_.
+Testing
+- Chrome Developer Tools
+- (upcoming) Test on Firefox, Microsoft Edge
+- (upcoming) W3 Markup Validation Service
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Bugs
 
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
----
-
-Happy coding!
+Credit/Attributions for Pictures
+<a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
+<a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
+<a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
+<a href='https://www.freepik.com/photos/tree'>Tree photo created by user18526052 - www.freepik.com</a>
+<a href='https://www.freepik.com/photos/tree'>Tree photo created by freepik - www.freepik.com</a>
+<a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
+<a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
+<a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
