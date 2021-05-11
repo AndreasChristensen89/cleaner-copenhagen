@@ -64,13 +64,20 @@ Deployment
 Website is deployed via GitHub
 
 Credit/Attributions for Pictures
-<a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
-<a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
-<a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
-<a href='https://www.freepik.com/photos/tree'>Tree photo created by user18526052 - www.freepik.com</a>
-<a href='https://www.freepik.com/photos/tree'>Tree photo created by freepik - www.freepik.com</a>
-<a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
-<a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
+Hero-image:
+<a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>
+
+Meetuptimes:
+- Kongens Have (and what-we-do page)
+    <a href="https://www.freepik.com/photos/tree">Tree photo created by freepik - www.freepik.com</a>
+- Fælledparken
+    <a href="https://www.freepik.com/photos/hand">Hand photo created by prostooleh - www.freepik.com</a>
+- Søndermarken
+    <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
+- Utterslev Mose
+    <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
+
+About us
 <a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
 
 Future:

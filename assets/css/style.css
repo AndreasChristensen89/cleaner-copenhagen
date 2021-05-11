@@ -55,11 +55,11 @@ body {
     border-bottom: 2px solid #61892f;
 }
 
-nav {
+/* nav {
     position: sticky;
     top: 0;
     width: 100%;
-}
+} */
 
 /* hero-image */
 #hero-outer {
@@ -174,8 +174,65 @@ height: 325px;
   font-weight: 500;
   font-size: 130%;
 }
+/* meetup times home page */
 
-/* animation for cta-divs  */
+#meetup-times {
+    text-align: center;
+    height: 600px;
+    margin-left: 20px;
+}
+
+#meetup-times div {
+    border: 2px solid white;
+    width: 20%;
+    float: left;
+    height: 300px;
+    padding: 100px 30px 30px 30px;
+    border-radius: 10%;
+}
+
+#meetup-times div:hover {
+transform: scale(1.05);
+transition: all 0.3s ease 0s;
+box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+#meetup-times h3 {
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    line-height: 60pt;
+    border-radius: 10px;
+}
+
+#meetup-times h1 {
+    color: #61892f;
+    font-weight: bold;
+    font-size: 30pt;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+#kongens-have {
+    background-image: url(../images/kongens-have.jpg);
+    background-size: cover;
+    background-position-x: 70%;
+}
+
+#fælledparken {
+    background: url(../images/fælledparken.jpg) no-repeat center;
+}
+
+#søndermarken {
+    background: url(../images/søndermarken.jpg) no-repeat;
+}
+
+#utterslev-mose {
+    background: url(../images/utterslev-mose.jpg) no-repeat center;
+}
+
+/* animation for cta-divs home page  */
 
 #left-cta:hover, #right-cta:hover, #center-cta:hover {
 transform: scale(1.1);
@@ -409,62 +466,6 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 
 #bring {
     margin: 0 auto;
-}
-
-#meetup-times {
-    text-align: center;
-    height: 600px;
-    margin-left: 20px;
-}
-
-#meetup-times div {
-    border: 2px solid white;
-    width: 20%;
-    float: left;
-    height: 300px;
-    padding: 100px 30px 30px 30px;
-    border-radius: 10%;
-}
-
-#meetup-times div:hover {
-transform: scale(1.05);
-transition: all 0.3s ease 0s;
-box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
-}
-
-#meetup-times h3 {
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-transform: uppercase;
-    line-height: 60pt;
-    border-radius: 10px;
-}
-
-#meetup-times h1 {
-    color: #61892f;
-    font-weight: bold;
-    font-size: 30pt;
-    clear: both;
-    margin-bottom: 30px;
-}
-
-#kongens-have {
-    background-image: url(../images/kongens-have.jpg);
-    background-size: cover;
-    background-position-x: 70%;
-}
-
-#fælledparken {
-    background: url(../images/fælledparken.jpg) no-repeat center;
-}
-
-#søndermarken {
-    background: url(../images/søndermarken.jpg) no-repeat;
-}
-
-#utterslev-mose {
-    background: url(../images/utterslev-mose.jpg) no-repeat center;
 }
 
 /* contact page */
