@@ -55,11 +55,16 @@ body {
     border-bottom: 2px solid #61892f;
 }
 
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
 /* hero-image */
 #hero-outer {
     height: 600px;
     width: 100%;
-    position: relative;
     overflow: hidden;
     margin-bottom: 30px;
 }
@@ -81,7 +86,7 @@ body {
 
 #cover-text {
     position: relative;
-    z-index: 3;
+    /* z-index: 3; */
     top: 200px;
     text-align: center;
     color: white;
