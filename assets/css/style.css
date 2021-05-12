@@ -836,7 +836,7 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
-    font-size: 230%;
+    font-size: 217%;
 }
 
 #menu {
@@ -849,10 +849,7 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
 
 #menu > li {
     font-size: 100%;
-}
-
-#logo {
-    font-size: 236%;
+    letter-spacing: 1px;
 }
 
 header {
