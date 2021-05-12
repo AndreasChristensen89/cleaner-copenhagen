@@ -74,8 +74,13 @@ Features left to implement
 
 
 Testing
-- Chrome Developer Tools
+- Chrome Developer Tools for testing all media queries down to 280px to fit the smallest devide available on their list. Also, manipulating 
+with CSS to see direct outcomes.
 - (upcoming) Test on Firefox, Microsoft Edge
+
+Media query tested on my own phone, Samsung Galaxy S9.
+Media query tested on my own tablet, Ipad pro 2018.
+General testing with my own laptop, Asus 13".
 
 "In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
 Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project 
@@ -91,8 +96,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 
 Validator testing:
-- (upcoming) W3 Markup Validation Service for HTML
-- (upcoming) Jigsaw test for CSS
+- W3 Markup Validation Service completed for all HTML pages with no issues (upcoming)
+- Jigsaw test for CSS completed with no issues (upcoming)
 
 Unfixed bugs:
 
@@ -103,6 +108,50 @@ From the source section drop-down menu, select the Master Branch
 After selecting the master branch, the page will automatically be refreshed with a ribbon display to indicate the successful deployment.
 The live link can be found here - https://andreaschristensen89.github.io/cleancopenhagen/
 
+
+Credits:
+- Pictures
+    All images were taken from https://www.freepik.com/, which requires attributions.
+    Images were compressed using the webpage https://tinypng.com/
+
+    Hero-image:
+    <a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>
+
+    Meetuptimes:
+        - Kongens Have (and what-we-do page)
+            <a href="https://www.freepik.com/photos/tree">Tree photo created by freepik - www.freepik.com</a>
+        - Fælledparken
+            <a href="https://www.freepik.com/photos/hand">Hand photo created by prostooleh - www.freepik.com</a>
+        - Søndermarken
+            <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
+        - Utterslev Mose
+            <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
+
+    About us
+            <a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
+
+    What we do
+            <a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
+
+
+- Text content
+Content was all formulated by myself, but I took inspiration from another site with a similar focus:
+https://www.doinggoodtogether.org/bhf/clean-up-your-neighborhood
+
+
+- Icons
+Icons and script were taken from https://fontawesome.com/ 
+
+
+- Coding help
+    - For help with varius issues with animations, sticky navigation bar, background manipulation etc. I often resorted to 
+    https://stackoverflow.com/
+    - Code Institute Slack Community for additional help with details (aria-label, general requirements, deployment)
+
+- Design
+    - For design of the different pages I took inspiration from other students of Code Institute that request reviews of their projects. Also,
+    I looked at various websites of professionals, e.g. https://www.wimhofmethod.com/
+    - For color schemes I used a blog on Visme that had 50 examples of good color combinations: https://visme.co/blog/website-color-schemes/
 
 User Experience Considerations:
 
@@ -133,14 +182,11 @@ which hopefully leads users to envision being outside in nature.
     - Footer icons and text: #EEE2DC
 
 - Choice of text
-For text choice I leaned towards the Love Running project, which used Lato and Oswald. Google Fonts provides fonts that are similar,
-so I went with Lato with a different text-partner.
+For text choice I leaned towards the Love Running project, which used Lato and Oswald. After testing with other fonts (Roboto, Open Sans, Raleway)
+I found Lato to work quite well with both text and headings.
 
-- Pictures
-    All images were taken from Freepik.com, which requires attributions.
-    Images were compressed using the webpage tinypng.com
-    Sunny, bright and green pictures were targeted to with the aim of thinking of nice weather, as the activity would be outside.
-- Page content
+Picture:
+Sunny, bright and green pictures were targeted to with the aim of thinking of nice weather, as the activity would be outside.
 
 Languages used
 - HTML
@@ -151,21 +197,7 @@ Accesibility (upcoming)
 All non-text elements is marked with aria-label, and there is a contrast between background and foreground colors.
 
 Credit/Attributions for Pictures
-Hero-image:
-<a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>
 
-Meetuptimes:
-- Kongens Have (and what-we-do page)
-    <a href="https://www.freepik.com/photos/tree">Tree photo created by freepik - www.freepik.com</a>
-- Fælledparken
-    <a href="https://www.freepik.com/photos/hand">Hand photo created by prostooleh - www.freepik.com</a>
-- Søndermarken
-    <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
-- Utterslev Mose
-    <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
-
-About us
-<a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
 
 Future:
 - Maybe remove animation for media queries

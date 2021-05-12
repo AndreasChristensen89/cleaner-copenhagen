@@ -404,14 +404,14 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 #center-circle {
     width: 280px;
     height: 280px;
-    padding: 5px;
+    padding: 2px;
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 50%;
     margin: 0 auto;
 }
 
 #circle-bg {
-    background: url(../images/kongens-have.jpg) no-repeat center center;
+    background: url(../images/girl-garbage-bags.jpg) no-repeat center center;
     background-size: cover;
     background-position-x: 90%;
     border-radius: 50%;
