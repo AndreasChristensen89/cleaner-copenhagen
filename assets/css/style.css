@@ -1,5 +1,5 @@
-/* Google Fonts: Lato heading, open sans text */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+/* Google Fonts: Lato heading */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -144,7 +144,7 @@ header {
 }
 
 
-.cta-section a {
+a {
     text-decoration: none;
     color: inherit;
 }
