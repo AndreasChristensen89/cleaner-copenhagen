@@ -1,14 +1,111 @@
 Cleaner Copenhagen
 
-Table of contents:
+The idea behind this project was to create a simple website for a group that picks up litter in the parks of Copenhagen.
+This group consists of volunteers and for recruitment relies on word of mouth and visitors to this website.
+The target group is people living in or close to Copenhagen. Anyone able to show up in person can join, so location is the only criteria along
+with fitness to be able to walk around for a period. This is a cleaner group, but it's also a social group, so adults, teenagers, and children 
+are all welcome.
 
-Purpose of website:
-Introduce people to a fictional group that picks up litter in the parks of Copenhagen.
-This group consists of volunteers and relies on word of mouth and visitors to this website.
-The website should provide a quick overview of what the group is, when they operate, how to get in contact with them, and how to join.
+The name CleanerCopenhagen is meant as a play on words, as in they are, and are searching for, cleaners in Copenhagen, and they are also 
+striving for a cleaner Copenhagen.
+
+Features
+
+Existing features:
+- Navigation bar
+    - The navigation bar is on all four pages. It has links to the Home page, the About page, the What We Do page, and the Contact page.
+    Visually, it is identical on each page but with a bottom border under the current page. It always sticks to the top when scrolling.
+    - This section allows the user to always be able to navigate to all parts of the website without going back to the home page, or
+    scrolling to the top.
+
+- Landing page image / hero image
+    - The landing page has a large image with a text bar horizontally over the middle which contains an inspiring message to join the group.
+    The text bar has a different message on each page that corresponds to the purpose/content.
+    - The image is a bright city park with a curving road which communicates to the user what the group is aiming for: a beautiful spotless 
+    clean park.
+
+- Call to action
+    - The following section has three boxes each with links to the different pages on the site. Each box has a short description of why the 
+    user should click the link.
+    - Each box has large green icons that gives a visual hint of what the content of the link is. Along with the description this makes it 
+    easier for the user to quickly understand what it is.
+
+- Meetup times
+    - This section lets the user know that the group is active and meeting up four times every week. Where and when is short and precise. 
+    The dates and places will update according to group activities.
+    - Each box has a background image of people picking up litter in green and bright scenery, which serves to give a positive outdoor feeling.
+    Each box also links to the contact page where it's possible contact the group, to this there are added hover-animations to hint to the user
+    that the boxes are clickable.
+
+- Footer
+    - The footer includes four links to FaceBook, YouTube, Instagram, and Twitter that each opens in a new tab. To the right is a copyright 
+    statement. The social media links are represented with icons, and have animations when hovering over them. The footer is at the bottom 
+    of every page.
+    - The footer is valuable to the user as they can easily navigate through the social media accounts of the group.
+
+ - About us
+    - It has four areas; two text based, one picture, and one button. The text is unspecific but invites the user to contact them for more 
+    details. The picture shows two children holding a bag a litter together, which is meant to symbolise unity and also complement the title 
+    "doing good together". The button underneath is visually striking due to the size, the border, and the message icon. It is meant to quickly 
+    signal it's purpose.
+    - This section is to casually inform the user of who is behind the group. It is valuable to the user to know that the group is for everyone,
+    and that it also sets up additional family-oriented events.
+    
+- What we do - top
+    - This section has a similar setup as the "about us" page, but with no contact button. In the middle there is a picture showing a plastic
+    bag on a bush in order to show that litter can be found in the parks. 
+    - It is valuable to the user to understand why the group operates, due to the fact that parks in Copenhagen are generally quite clean.
+
+- What we do - bottom
+    - In three headings with text this section talks about what the activities are about. It's fun, anyone can join, and there are only a few
+    things to bring.
+    - It is valuable to the user to understand that the activities are not dangerous and can be done by everyone, and also the specifics of
+    what to bring.
+
+- Contact
+    - This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email, the user also
+    picks a subject to specify for the receiver: Become a member, Questions, and Other. The user can write a message, clear form, and submit.
+    - It is important to the user to be able to contact the group.
+
+Features left to implement
+    - Clicking on an event could fill in part of a form of which event the user wishes to register for.
+    - Form should accomodate users wishes to register for specific events.
+
+
+
+Testing
+- Chrome Developer Tools
+- (upcoming) Test on Firefox, Microsoft Edge
+
+"In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
+Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project 
+providing an easy and straightforward way for the users to achieve their goals.
+
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed 
+them yet.
+
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
+
+
+
+Validator testing:
+- (upcoming) W3 Markup Validation Service for HTML
+- (upcoming) Jigsaw test for CSS
+
+Unfixed bugs:
+
+Deployment
+The site was deployed to GitHub pages, and goes as follows:
+In the GitHub repository, go to the Settings tab
+From the source section drop-down menu, select the Master Branch
+After selecting the master branch, the page will automatically be refreshed with a ribbon display to indicate the successful deployment.
+The live link can be found here - https://andreaschristensen89.github.io/cleancopenhagen/
+
 
 User Experience Considerations:
-Target group is people living in or close to Copenhagen. Anyone able to show up in person can join, so location is the only criteria.
+
 Strategy
 Scope
 Structure
@@ -29,6 +126,7 @@ Colors are chosen to represent a "natural" scenery that hint of being in a park/
 which hopefully leads users to envision being outside in nature.
     - Background color: #EAE7DC
     - Logo, titles, navbar elements, top of call-to-action divs, top of form: #61892F
+    - Font of call-to-action divs: rgb(211, 203, 161)
     - Cover text hero-image, Call-to-action divs headings: standard white
     - Call-to-action icons: standard green
     - Footer background color: rgb(177, 142, 96)
@@ -50,18 +148,7 @@ Languages used
 - (upcoming) Markdown
 
 Accesibility (upcoming)
-All non-text elements will be marked with alt text, contrast between background and foreground colors.
-
-Testing
-- Chrome Developer Tools
-- (upcoming) Test on Firefox, Microsoft Edge
-- (upcoming) W3 Markup Validation Service for HTML
-- (upcoming) Jigsaw test for CSS
-
-Bugs
-
-Deployment
-Website is deployed via GitHub
+All non-text elements is marked with aria-label, and there is a contrast between background and foreground colors.
 
 Credit/Attributions for Pictures
 Hero-image:
@@ -87,3 +174,4 @@ Future:
 - Insert screenshots in readme file of finished project
 - GO thorugh CSS code to remove possible inactive/useless code
 - Use markup language on readme file
+- Add 404.md description
