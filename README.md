@@ -52,8 +52,8 @@ Existing features:
     and that it also sets up additional family-oriented events.
     
 - What we do - top
-    - This section has a similar setup as the "about us" page, but with no contact button. In the middle there is a picture showing a plastic
-    bag on a bush in order to show that litter can be found in the parks. 
+    - This section has a similar setup as the "about us" page, but with no contact button. In the middle there is a picture showing a girl
+    holding two plastic bags with litter in order to show that litter can be found in the parks. 
     - It is valuable to the user to understand why the group operates, due to the fact that parks in Copenhagen are generally quite clean.
 
 - What we do - bottom
