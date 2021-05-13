@@ -24,12 +24,14 @@ Features
     The text bar has a different message on each page that corresponds to the purpose/content.
     * The image is a bright city park with a curving road which communicates to the user what the group is aiming for: a beautiful spotless 
     clean park.
+![Landing page](/assets/readme-pictures/hero-image-readme.PNG)
 
 * Call to action
     * The following section has three boxes each with links to the different pages on the site. Each box has a short description of why the 
     user should click the link.
     * Each box has large green icons that gives a visual hint of what the content of the link is. Along with the description this makes it 
     easier for the user to quickly understand what it is.
+![Call to action](/assets/readme-pictures/call-to-action-readme.PNG)
 
 * Meetup times
     * This section lets the user know that the group is active and meeting up four times every week. Where and when is short and precise. 
@@ -37,12 +39,14 @@ Features
     * Each box has a background image of people picking up litter in green and bright scenery, which serves to give a positive outdoor feeling.
     Each box also links to the contact page where it's possible contact the group, to this there are added hover-animations to hint to the user
     that the boxes are clickable.
+![Meetup times](/assets/readme-pictures/meetup-times-readme.PNG)
 
 * Footer
     - The footer includes four links to FaceBook, YouTube, Instagram, and Twitter that each opens in a new tab. To the right is a copyright 
     statement. The social media links are represented with icons, and have animations when hovering over them. The footer is at the bottom 
     of every page.
     - The footer is valuable to the user as they can easily navigate through the social media accounts of the group.
+![Footer](/assets/readme-pictures/footer-readme.PNG)
 
 * About us
     * It has four areas; two text based, one picture, and one button. The text is unspecific but invites the user to contact them for more 
@@ -51,22 +55,26 @@ Features
     signal it's purpose.
     * This section is to casually inform the user of who is behind the group. It is valuable to the user to know that the group is for everyone,
     and that it also sets up additional family-oriented events.
+![About us](/assets/readme-pictures/about-us-readme.PNG)
     
 * What we do - top
     * This section has a similar setup as the "about us" page, but with no contact button. In the middle there is a picture showing a girl
     holding two plastic bags with litter in order to show that litter can be found in the parks. 
     * It is valuable to the user to understand why the group operates, due to the fact that parks in Copenhagen are generally quite clean.
+![What we do - top](/assets/readme-pictures/whatwedo-top-readme.PNG)
 
 * What we do - bottom
     * In three headings with text this section talks about what the activities are about. It's fun, anyone can join, and there are only a few
     things to bring.
     * It is valuable to the user to understand that the activities are not dangerous and can be done by everyone, and also the specifics of
     what to bring.
+![What we do - bottom](/assets/readme-pictures/whatwedo-bottom-readme.PNG)
 
 * Contact
     * This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email, the user also
     picks a subject to specify for the receiver: Become a member, Questions, and Other. The user can write a message, clear form, and submit.
     * It is important to the user to be able to contact the group.
+![Contact](/assets/readme-pictures/contact-readme.PNG)
 
 ## Features left to implement
     - Clicking on an event could fill in part of a form of which event the user wishes to register for.
