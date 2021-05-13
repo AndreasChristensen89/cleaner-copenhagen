@@ -73,7 +73,7 @@ Features
 * Contact
     * This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email, the user also
     picks a subject to specify for the receiver: Become a member, Questions, and Other. The user can write a message, clear form, and submit.
-    * It is valuable to the user to be able to contact the group if they wish to become a member, ask questions, or any other requests/comments
+    * It is valuable to the user to be able to contact the group if they wish to become a member, ask questions, or any other requests/comments.
 ![Contact](/assets/readme-pictures/contact-readme.PNG)
 
 ## Features left to implement
@@ -83,13 +83,48 @@ Features
 
 
 ## Testing
-* Chrome Developer Tools for testing all media queries down to 280px to fit the smallest devide available on their list. Also, manipulating 
-with CSS to see direct outcomes.
+* Chrome Developer Tools was used for testing all media queries down to 280px to fit the smallest devide available on the Google device list.
+Also, developer tools was used to manipulate CSS to see direct outcomes. All pages have been tested with chrome developer tools to verify that
+text, pictures, and boxes all adapt well to the breakpoints for different screens. 
+
+* Breakpoints are set to the following:
+    * 1340px
+        * This Breakpoint deals with the navigation bar and shrinks the text to avoid colission with the logo. 
+        * The meetup times on the home page are made smaller in order to maintain proper form.On the what we do page, the text is also shrunk in order to avoid collission.
+    * 950px
+        * This breakpoint is generally for tablet screens and deals with a number of element collissions. 
+        * The navigation bar is pushed under the logo to make space for its size, but still floats to the right. 
+        * The call-to-action boxes are places vertically, instead of horinzontally, and the same is done to the meetup times boxes.
+        * On the about us page all the elements are also put vertically. Before the image was in the center, but now it is placed under the two text areas. The button remains in the bottom.
+        * The vertical design is also used on the what we do page, and all text sections are now in a vertical line.
+        * The footer has a change in its spacing between the social media icons, and they are now much closer together, and the font-size of both sides. The widths of the left right footers are changed from 66%-33% to 50%-50%.
+        * Contact form's width is set to shrink/grow according to the screen size, text areas's width are smaller.
+    * 550px
+        * The navigation bar now centers its elements
+        * The logo font-size is lowered
+        * The footer font-sizes are lowered for both sides
+        * The about us page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
+        * The what we do page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
+        * Contact form's width is increased, but still adapts to screen size. Clear and sumbit buttons's widths are smaller.
+    * 400px
+        * Logo now takes two lines, and header's height adapts and is now 150px instead of 110px.
+        * Navigation bar's font-size is down in order to fit one line.
+        * About us page's height is increased to fit elements pushed together. Margin is changed for elements on same page. Picture is shrunk.
+        * What we do page's height in increased. Margin is changed for elements on same page. Picture is shrunk.
+    * 300px
+        * This is to accomodate the smallest screen sizes down to the lowest on the Google Developer Tool list (280px).
+        * Navigation bar's font-size is lowered.
+        * The height of the what we do page is increased, and margin of the elements on the same page is changed.
+
+
 * (upcoming) Test on Firefox, Microsoft Edge
 
 * Media query tested on my own phone, Samsung Galaxy S9.
 * Media query tested on my own tablet, Ipad pro 2018.
-* General testing with my own laptop, Asus 13".
+* General testing with my own laptop, Asus 13 inch.
+
+All links were tested, those connecting to external sources (social media) open in a new tab
+and those linking to external pages all work.
 
 "In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
 Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project 

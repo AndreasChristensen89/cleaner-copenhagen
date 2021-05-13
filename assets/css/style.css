@@ -560,6 +560,10 @@ margin-bottom: 20px;
     font-size: 14pt;
 }
 
+.cta-section h2 {
+    font-size: 140%;
+}
+
 .whatwedo p {
     padding: 20px 40px;
 }
