@@ -43,7 +43,7 @@ Features
     Each box also links to the contact page where it's possible contact the group, to this there are added hover-animations to hint to the user
     that the boxes are clickable.
 
-![Meetup times](/assets/readme-pictures/meetup-places-readme.PNG)
+![Meetup times]()
 
 * Footer
     - The footer includes four links to FaceBook, YouTube, Instagram, and Twitter that each opens in a new tab. To the right is a copyright 
