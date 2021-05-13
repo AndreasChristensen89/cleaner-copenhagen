@@ -467,15 +467,16 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
     margin: 30px 0;
 }
 
-#form-section label {
-    font-weight: bold;
-}
+/* #form-section label {
 
-#form-section p {
+} */
+
+/* form {
     font-size: 12pt;
     font-weight: 400;
     letter-spacing: 3px;
-}
+        font-weight: bold;
+} */
 
 #form-div-back {
     margin: 0 auto;
@@ -500,7 +501,9 @@ border-radius: 0 0 30px 30px;
 }
 
 .label {
-margin-bottom: 20px;
+margin: 0px;
+width: 100%;
+float: left;
 }
 
 #fname, #lname, #subject, #email, #message {

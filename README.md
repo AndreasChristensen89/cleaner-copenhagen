@@ -150,7 +150,7 @@ Firefox did not show the Google font during testing.
 
 ## Validator testing:
 - W3 Markup Validation Service completed for all HTML pages with no issues (upcoming)
-- Jigsaw test for CSS completed with no issues (upcoming)
+Jigsaw test for CSS completed with no issues
 
 ## Unfixed bugs:
 Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
