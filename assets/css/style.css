@@ -623,6 +623,10 @@ header {
     height: 120px;
 }
 
+#logo {
+    font-size: 270%;
+}
+
 .cta-section {
     height: 1200px;
     text-align: center;
