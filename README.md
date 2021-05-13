@@ -118,12 +118,11 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
 
 
 ## Browser testing 
-* Test on Firefox didn't react as Google Chrome in terms of media queries, particularly the nagivation bar. 
-This probably had to do with the font-family, as it did not show Lato but used the backup text which has a different size.
-* Microsoft Edge
-* Media query tested on my own phone, Samsung Galaxy S9.
-* Media query tested on my own tablet, Ipad pro 2018.
-* General testing with my own laptop, Asus 13 inch.
+* Test on Firefox was good, but font was different.
+* Microsoft Edge was also good, but font issue was the same as Firefox.
+* Media query tested on my own phone, Samsung Galaxy S9 using Chrome, no issues
+* Media query tested on my own tablet, Ipad pro 2018 using Safari, no issues.
+* General testing with my own laptop, Asus 13 inch using Chrome, no issues.
 
 All links were tested. The links connecting to external sources (social media) open in a new tab and those linking to external pages all work
  as intended. There are links on each site, except for the what we do page, but the user still has an easy to understand sticky nagivation bar. 
