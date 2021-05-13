@@ -17,6 +17,7 @@ Features
     Visually, it is identical on each page but with a bottom border under the current page. It always sticks to the top when scrolling.
     * This section allows the user to always be able to navigate to all parts of the website without going back to the home page, or
     scrolling to the top.
+![Nav Bar](/assets/readme-pictures/navbar-readme.PNG)
 
 * Landing page image / hero image
     * The landing page has a large image with a text bar horizontally over the middle which contains an inspiring message to join the group.
