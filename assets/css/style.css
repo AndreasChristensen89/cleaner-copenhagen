@@ -504,7 +504,7 @@ form {
     height: 20px;
     width: 75%;
     padding: 2px 0px 0px 10px;
-    margin: 10px;
+    margin: 10px 10%;
 }
 
 
@@ -514,8 +514,6 @@ form {
     font-size: 100%;
     background-color: #836225;
     color: #fafafa;
-    display: inline;
-    margin: 0 auto;
 }
 
 .formbutton:hover {
