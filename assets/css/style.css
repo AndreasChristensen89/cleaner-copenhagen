@@ -216,11 +216,11 @@ box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
     background-position-x: 70%;
 }
 
-#fælledparken {
+#faelledparken {
     background: url(../images/faelledparken.jpg) no-repeat center;
 }
 
-#søndermarken {
+#sondermarken {
     background: url(../images/sondermarken.jpg) no-repeat;
 }
 
@@ -600,7 +600,7 @@ margin-bottom: 20px;
     line-height: 40pt;
 }
 
-#fælledparken {
+#faelledparken {
     background-position-x: 40%;
 }
 
