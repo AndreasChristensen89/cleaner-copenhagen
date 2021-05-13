@@ -17,6 +17,7 @@ Features
     Visually, it is identical on each page but with a bottom border under the current page. It always sticks to the top when scrolling.
     * This section allows the user to always be able to navigate to all parts of the website without going back to the home page, or
     scrolling to the top.
+    
 ![Nav Bar](/assets/readme-pictures/navbar-readme.PNG)
 
 * Landing page image / hero image
@@ -24,6 +25,7 @@ Features
     The text bar has a different message on each page that corresponds to the purpose/content.
     * The image is a bright city park with a curving road which communicates to the user what the group is aiming for: a beautiful spotless 
     clean park.
+
 ![Landing page](/assets/readme-pictures/hero-image-readme.PNG)
 
 * Call to action
@@ -31,6 +33,7 @@ Features
     user should click the link.
     * Each box has large green icons that gives a visual hint of what the content of the link is. Along with the description this makes it 
     easier for the user to quickly understand what it is.
+
 ![Call to action](/assets/readme-pictures/call-to-action-readme.PNG)
 
 * Meetup times
@@ -39,6 +42,7 @@ Features
     * Each box has a background image of people picking up litter in green and bright scenery, which serves to give a positive outdoor feeling.
     Each box also links to the contact page where it's possible contact the group, to this there are added hover-animations to hint to the user
     that the boxes are clickable.
+
 ![Meetup times](/assets/readme-pictures/meetup-times-readme.PNG)
 
 * Footer
@@ -46,6 +50,7 @@ Features
     statement. The social media links are represented with icons, and have animations when hovering over them. The footer is at the bottom 
     of every page.
     - The footer is valuable to the user as they can easily navigate through the social media accounts of the group.
+
 ![Footer](/assets/readme-pictures/footer-readme.PNG)
 
 * About us
@@ -55,12 +60,14 @@ Features
     signal it's purpose.
     * This section is to casually inform the user of who is behind the group. It is valuable to the user to know that the group is for everyone,
     and that it also sets up additional family-oriented events.
+
 ![About us](/assets/readme-pictures/about-us-readme.PNG)
     
 * What we do - top
     * This section has a similar setup as the "about us" page, but with no contact button. In the middle there is a picture showing a girl
     holding two plastic bags with litter in order to show that litter can be found in the parks. 
     * It is valuable to the user to understand why the group operates, due to the fact that parks in Copenhagen are generally quite clean.
+
 ![What we do - top](/assets/readme-pictures/whatwedo-top-readme.PNG)
 
 * What we do - bottom
@@ -68,12 +75,14 @@ Features
     things to bring.
     * It is valuable to the user to understand that the activities are not dangerous and can be done by everyone, and also the specifics of
     what to bring.
+
 ![What we do - bottom](/assets/readme-pictures/whatwedo-bottom-readme.PNG)
 
 * Contact
     * This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email, the user also
     picks a subject to specify for the receiver: Become a member, Questions, and Other. The user can write a message, clear form, and submit.
     * It is valuable to the user to be able to contact the group if they wish to become a member, ask questions, or any other requests/comments.
+
 ![Contact](/assets/readme-pictures/contact-readme.PNG)
 
 ## Features left to implement
@@ -118,8 +127,8 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
 
 
 ## Browser testing 
-* Test on Firefox was good, but font was different.
-* Microsoft Edge was also good, but font issue was the same as Firefox.
+* Test on Firefox was good, but Google fonts seems to not be able to load, so the backup font was displayed.
+* Microsoft Edge was without any issues.
 * Media query tested on my own phone, Samsung Galaxy S9 using Chrome, no issues
 * Media query tested on my own tablet, Ipad pro 2018 using Safari, no issues.
 * General testing with my own laptop, Asus 13 inch using Chrome, no issues.
@@ -130,11 +139,12 @@ All links were tested. The links connecting to external sources (social media) o
 I believe the webpage is set up for the users to easily achieve their goal, which is to get general information about the group, who they are, 
 where and when they operate, a way to contact them with questions/requests for membership/general inquiries and comments.
 
-Bugs discovered during testing:
+### Bugs discovered during testing:
 I found the Google Developer Tool to not be stable in showing if the website responded correctly to different screensizes. Many times it would show 
-that everything works fine and smoothly only to display something different the next time I open it. Similarly, it would show that something was off 
+that everything worked fine and smoothly only to display something different the next time it was opened. Similarly, it would show that something was off 
 (footer not showing, lines out of bounds etc) only to show them correctly after closing and opening.
-
+In short, the test would succeed on Google Developer, but fail when manipulating actual browser window.
+Firefox did not show the Google font during testing.
 
 
 
@@ -143,6 +153,7 @@ that everything works fine and smoothly only to display something different the 
 - Jigsaw test for CSS completed with no issues (upcoming)
 
 ## Unfixed bugs:
+Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
 
 ## Deployment
 The site was deployed to GitHub pages, and goes as follows:
@@ -209,45 +220,40 @@ The User
 - What are the goals for a first time visitor
 - What are the goals for a returning visitor
 
-Design choices
-- Overview
+## Design choices
+* Overview
     The aim is to provide easy-to-navigate pages that make it easy and clear to navigate around, with many links to the contact/join page.
     Information should not be detailed but fast to read and understand, and straight to the point.
 
-- Color Scheme 
+### Color Scheme 
 Colors are chosen to represent a "natural" scenery that hint of being in a park/forest, 
 which hopefully leads users to envision being outside in nature.
-    - Background color: #EAE7DC
-    - Logo, titles, navbar elements, top of call-to-action divs, top of form: #61892F
-    - Font of call-to-action divs: rgb(211, 203, 161)
-    - Cover text hero-image, Call-to-action divs headings: standard white
-    - Call-to-action icons: standard green
-    - Footer background color: rgb(177, 142, 96)
-    - Footer icons and text: #EEE2DC
+* Background color: **#EAE7DC**
+* Logo, titles, navbar elements, top of call-to-action divs, top of form: **#61892F**
+* Font of call-to-action divs: **rgb(211, 203, 161)**
+* Cover text hero-image, Call-to-action divs headings: **standard white**
+* Call-to-action icons: **standard green**
+* Footer background color: **rgb(177, 142, 96)**
+* Footer icons and text: **#EEE2DC**
 
-- Choice of text
+### Choice of text
 For text choice I leaned towards the Love Running project, which used Lato and Oswald. After testing with other fonts (Roboto, Open Sans, Raleway)
 I found Lato to work quite well with both text and headings.
 
-Picture:
-Sunny, bright and green pictures were targeted to with the aim of thinking of nice weather, as the activity would be outside.
+### Pictures:
+Sunny, bright and green pictures from parks were targeted to with the aim of thinking of nice weather, as the activity would be outside. Pictures with families/children were favored to give a family friendly atmosphere.
 
-Languages used
-- HTML
-- CSS
-- (upcoming) Markdown
+### Languages used
+* HTML
+* CSS
+* Markdown language for readme file
 
-Accesibility (upcoming)
-All non-text elements is marked with aria-label, and there is a contrast between background and foreground colors.
-
-Credit/Attributions for Pictures
+### Accesibility
+All non-text elements is marked with aria-label, and the contrast between background and foreground colors were implemented in color scheme.
 
 
-Future:
-- Maybe remove animation for media queries
+## Future:
 - Use semantic markup to structure HTML
 - Removed commented out code
-- Insert screenshots in readme file of finished project
 - GO thorugh CSS code to remove possible inactive/useless code
-- Use markup language on readme file
 - Add 404.md description
