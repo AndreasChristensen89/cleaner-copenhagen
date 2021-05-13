@@ -117,7 +117,10 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
         * The height of the what we do page is increased, and margin of the elements on the same page is changed.
 
 
-* (upcoming) Test on Firefox, Microsoft Edge
+## Browser testing 
+* Test on Firefox didn't react as Google Chrome in terms of media queries, particularly the nagivation bar. 
+This probably had to do with the font-family, as it did not show Lato but used the backup text which has a different size.
+* Microsoft Edge
 * Media query tested on my own phone, Samsung Galaxy S9.
 * Media query tested on my own tablet, Ipad pro 2018.
 * General testing with my own laptop, Asus 13 inch.
@@ -129,6 +132,9 @@ I believe the webpage is set up for the users to easily achieve their goal, whic
 where and when they operate, a way to contact them with questions/requests for membership/general inquiries and comments.
 
 Bugs discovered during testing:
+I found the Google Developer Tool to not be stable in showing if the website responded correctly to different screensizes. Many times it would show 
+that everything works fine and smoothly only to display something different the next time I open it. Similarly, it would show that something was off 
+(footer not showing, lines out of bounds etc) only to show them correctly after closing and opening.
 
 
 
