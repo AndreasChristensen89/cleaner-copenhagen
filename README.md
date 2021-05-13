@@ -17,7 +17,7 @@ Features
     Visually, it is identical on each page but with a bottom border under the current page. It always sticks to the top when scrolling.
     * This section allows the user to always be able to navigate to all parts of the website without going back to the home page, or
     scrolling to the top.
-    
+
 ![Nav Bar](/assets/readme-pictures/navbar-readme.PNG)
 
 * Landing page image / hero image
@@ -43,7 +43,7 @@ Features
     Each box also links to the contact page where it's possible contact the group, to this there are added hover-animations to hint to the user
     that the boxes are clickable.
 
-![Meetup times](/assets/readme-pictures/meetup-times-readme.PNG)
+![Meetup times](/assets/readme-pictures/meetup-places-readme.PNG)
 
 * Footer
     - The footer includes four links to FaceBook, YouTube, Instagram, and Twitter that each opens in a new tab. To the right is a copyright 
