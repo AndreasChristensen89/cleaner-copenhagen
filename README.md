@@ -73,7 +73,7 @@ Features
 * Contact
     * This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email, the user also
     picks a subject to specify for the receiver: Become a member, Questions, and Other. The user can write a message, clear form, and submit.
-    * It is important to the user to be able to contact the group.
+    * It is valuable to the user to be able to contact the group if they wish to become a member, ask questions, or any other requests/comments
 ![Contact](/assets/readme-pictures/contact-readme.PNG)
 
 ## Features left to implement
