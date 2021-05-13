@@ -101,7 +101,7 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
         * This Breakpoint deals with the navigation bar and shrinks the text to avoid colission with the logo. 
         * The meetup times on the home page are made smaller in order to maintain proper form.On the what we do page, the text is also shrunk in order to avoid collission.
     * 950px
-        * This breakpoint is generally for tablet screens and deals with a number of element collissions. 
+        * This breakpoint is generally for tablet screens and deals with a number of element collissions by changing the general design from horizontal to vertical.
         * The navigation bar is pushed under the logo to make space for its size, but still floats to the right. 
         * The call-to-action boxes are places vertically, instead of horinzontally, and the same is done to the meetup times boxes.
         * On the about us page all the elements are also put vertically. Before the image was in the center, but now it is placed under the two text areas. The button remains in the bottom.
@@ -143,7 +143,7 @@ where and when they operate, a way to contact them with questions/requests for m
 I found the Google Developer Tool to not be stable in showing if the website responded correctly to different screensizes. Many times it would show 
 that everything worked fine and smoothly only to display something different the next time it was opened. Similarly, it would show that something was off 
 (footer not showing, lines out of bounds etc) only to show them correctly after closing and opening.
-In short, the test would succeed on Google Developer, but fail when manipulating actual browser window.
+Also, the test would succeed on Google Developer, but fail when manipulating actual browser window.
 Firefox did not show the Google font during testing.
 
 
