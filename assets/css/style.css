@@ -837,13 +837,14 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
     margin-left: auto;
     margin-bottom: 20px;
     font-size: 217%;
+    line-height: 50px;
 }
 
 #menu {
     letter-spacing: 2px;
     text-align: center;
     padding: 0px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
     width: 100%;
 }
 
@@ -853,7 +854,7 @@ box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
 }
 
 header {
-    height: 130px;
+    height: 110px;
 }
 
 #cover-text h2 {
@@ -941,7 +942,7 @@ header {
     }
 
 header {
-    height: 210px;
+    height: 150px;
 }
     
     /* what we do */
