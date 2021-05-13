@@ -522,6 +522,7 @@ form {
     background-color: #836225;
     color: #fafafa;
     display: inline;
+    margin: 0 auto;
 }
 
 .formbutton:hover {
