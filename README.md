@@ -86,8 +86,9 @@ Features
 ![Contact](/assets/readme-pictures/contact-readme.PNG)
 
 ## Features left to implement
-    - Clicking on an event could fill in part of a form of which event the user wishes to register for.
-    - Form should accomodate users wishes to register for specific events.
+* Clicking on an event could fill in part of a form of which event the user wishes to register for.
+* Form should accomodate users wishes to register for specific events.
+* I was advised by my mentor to not include a submit button in the form with a method and action (method="post", action="https://formdump.codeinstitute.net/", type="submit"), and instead have the type="button"
 
 
 
