@@ -507,13 +507,6 @@ form {
     margin: 10px;
 }
 
-#purpose {
-    margin-bottom: 30px;
-}
-
-.form:hover {
-    border-color: #f16c6b;
-}
 
 .formbutton {
     border-radius: 10px;
