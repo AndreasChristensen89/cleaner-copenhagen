@@ -118,23 +118,17 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
 
 
 * (upcoming) Test on Firefox, Microsoft Edge
-
 * Media query tested on my own phone, Samsung Galaxy S9.
 * Media query tested on my own tablet, Ipad pro 2018.
 * General testing with my own laptop, Asus 13 inch.
 
-All links were tested, those connecting to external sources (social media) open in a new tab
-and those linking to external pages all work.
+All links were tested. The links connecting to external sources (social media) open in a new tab and those linking to external pages all work
+ as intended. There are links on each site, except for the what we do page, but the user still has an easy to understand sticky nagivation bar. 
 
-"In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project 
-providing an easy and straightforward way for the users to achieve their goals.
+I believe the webpage is set up for the users to easily achieve their goal, which is to get general information about the group, who they are, 
+where and when they operate, a way to contact them with questions/requests for membership/general inquiries and comments.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed 
-them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Bugs discovered during testing:
 
 
 
@@ -156,6 +150,7 @@ The live link can be found here - https://andreaschristensen89.github.io/cleanco
 ## Credits:
 ### Pictures
 All images were taken from https://www.freepik.com/, which requires attributions.
+
 Images were compressed using the webpage https://tinypng.com/
 
 * Hero-image:
@@ -178,21 +173,21 @@ Images were compressed using the webpage https://tinypng.com/
     <a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
 
 
-* Text content
+### Text content
 Content was all formulated by myself, but I took inspiration from another site with a similar focus:
 https://www.doinggoodtogether.org/bhf/clean-up-your-neighborhood
 
 
-* Icons
+### Icons
 Icons and script were taken from https://fontawesome.com/ 
 
 
-* Coding help
+### Coding help
     * For help with varius issues with animations, sticky navigation bar, background manipulation etc. I often resorted to 
     https://stackoverflow.com/
     * Code Institute Slack Community for additional help with details (aria-label, general requirements, deployment)
 
-* Design
+### Design
     * For design of the different pages I took inspiration from other students of Code Institute that request reviews of their projects. Also,
     I looked at various websites of professionals, e.g. https://www.wimhofmethod.com/
     * For color schemes I used a blog on Visme that had 50 examples of good color combinations: https://visme.co/blog/website-color-schemes/
