@@ -96,7 +96,7 @@ striving for a cleaner Copenhagen.
 Also, developer tools was used to manipulate CSS to see direct outcomes. All pages have been tested with chrome developer tools to verify that
 text, pictures, and boxes all adapt well to the breakpoints for different screens. 
 
-* Breakpoints are set to the following:
+* Breakpoints are set to the following and are all tested to work:
     * __1340px__
         * This Breakpoint deals with the navigation bar and shrinks the text to avoid colission with the logo. 
         * The meetup times on the home page are made smaller in order to maintain proper form.On the what we do page, the text is also shrunk in order to avoid collission.
