@@ -201,7 +201,7 @@ box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
 
-#meetup-times h1 {
+#meetup-times h2 {
     color: #61892f;
     font-weight: bold;
     font-size: 30pt;
@@ -318,7 +318,7 @@ transition: all 0.5s ease 0s;
 box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
 }
 
-.groupintro h1 {
+.groupintro h2 {
     color: #61892f;
     text-transform: uppercase;
     font-weight: 900;
@@ -326,7 +326,7 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
     margin: 40px auto;
 }
 
-.groupintro h2 {
+#contact-div h2 {
     letter-spacing: 4px;
     text-transform: uppercase;
     font-weight: 900;
