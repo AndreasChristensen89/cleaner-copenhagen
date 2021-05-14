@@ -9,10 +9,10 @@ are all welcome.
 The name Cleaner Copenhagen is meant as a play on words, as in they are, and are searching for, cleaners in Copenhagen, and they are also 
 striving for a cleaner Copenhagen.
 
-Features
+## Features
 
-## Existing features:
-* Navigation bar
+### Existing features:
+* __Navigation bar__
     * The navigation bar is on all four pages. It has links to the Home page, the About page, the What We Do page, and the Contact page.
     Visually, it is identical on each page but with a bottom border under the current page. It always sticks to the top when scrolling.
     * This section allows the user to always be able to navigate to all parts of the website without going back to the home page, or
@@ -20,7 +20,7 @@ Features
 
 ![Nav Bar](/assets/readme-pictures/navbar-readme.PNG)
 
-* Landing page image / hero image
+* __Landing page image / hero image__
     * The landing page has a large image with a text bar horizontally over the middle which contains an inspiring message to join the group.
     The text bar has a different message on each page that corresponds to the purpose/content.
     * The image is a bright city park with a curving road which communicates to the user what the group is aiming for: a beautiful spotless 
@@ -28,7 +28,7 @@ Features
 
 ![Landing page](/assets/readme-pictures/hero-image-readme.PNG)
 
-* Call to action
+* __Call to action__
     * The following section has three boxes each with links to the different pages on the site. Each box has a short description of why the 
     user should click the link.
     * Each box has large green icons that gives a visual hint of what the content of the link is. Along with the description this makes it 
@@ -36,7 +36,7 @@ Features
 
 ![Call to action](/assets/readme-pictures/call-to-action-readme.PNG)
 
-* Meetup times
+* __Meetup times__
     * This section lets the user know that the group is active and meeting up four times every week. Where and when is short and precise. 
     The dates and places will update according to group activities.
     * Each box has a background image of people picking up litter in green and bright scenery, which serves to give a positive outdoor feeling.
@@ -45,7 +45,7 @@ Features
 
 ![Meetup times](/assets/readme-pictures/meetup-places-readme.PNG)
 
-* Footer
+* __Footer__
     - The footer includes four links to FaceBook, YouTube, Instagram, and Twitter that each opens in a new tab. To the right is a copyright 
     statement. The social media links are represented with icons, and have animations when hovering over them. The footer is at the bottom 
     of every page.
@@ -53,7 +53,7 @@ Features
 
 ![Footer](/assets/readme-pictures/footer-readme.PNG)
 
-* About us
+* __About us__
     * It has four areas; two text based, one picture, and one button. The text is unspecific but invites the user to contact them for more 
     details. The picture shows two children holding a bag a litter together, which is meant to symbolise unity and also complement the title 
     "doing good together". The button underneath is visually striking due to the size, the border, and the message icon. It is meant to quickly 
@@ -63,14 +63,14 @@ Features
 
 ![About us](/assets/readme-pictures/about-us-readme.PNG)
     
-* What we do - top
+* __What we do - top__
     * This section has a similar setup as the "about us" page, but with no contact button. In the middle there is a picture showing a girl
     holding two plastic bags with litter in order to show that litter can be found in the parks. 
     * It is valuable to the user to understand why the group operates, due to the fact that parks in Copenhagen are generally quite clean.
 
 ![What we do - top](/assets/readme-pictures/whatwedo-top-readme.PNG)
 
-* What we do - bottom
+* __What we do - bottom__
     * In three headings with text this section talks about what the activities are about. It's fun, anyone can join, and there are only a few
     things to bring.
     * It is valuable to the user to understand that the activities are not dangerous and can be done by everyone, and also the specifics of
@@ -78,13 +78,13 @@ Features
 
 ![What we do - bottom](/assets/readme-pictures/whatwedo-bottom-readme.PNG)
 
-* Contact
+* __Contact__
     * This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email. The user can write a message, clear form, and submit.
     * It is valuable to the user to be able to contact the group if they wish to become a member, ask questions, or any other requests/comments.
 
 ![Contact](/assets/readme-pictures/contact-readme.PNG)
 
-## Features left to implement
+### Features left to implement
 * Clicking on an event could fill in part of a form of which event the user wishes to register for.
 * Form should accomodate users wishes to register for specific events.
 * I was advised by my mentor to not include a submit button in the form with a method and action (method="post", action="https://formdump.codeinstitute.net/", type="submit"), and instead have the type="button"
@@ -97,10 +97,10 @@ Also, developer tools was used to manipulate CSS to see direct outcomes. All pag
 text, pictures, and boxes all adapt well to the breakpoints for different screens. 
 
 * Breakpoints are set to the following:
-    * 1340px
+    * __1340px__
         * This Breakpoint deals with the navigation bar and shrinks the text to avoid colission with the logo. 
         * The meetup times on the home page are made smaller in order to maintain proper form.On the what we do page, the text is also shrunk in order to avoid collission.
-    * 950px
+    * __950px__
         * This breakpoint is generally for tablet screens and deals with a number of element collissions by changing the general design from horizontal to vertical.
         * The navigation bar is pushed under the logo to make space for its size, but still floats to the right. 
         * The call-to-action boxes are places vertically, instead of horinzontally, and the same is done to the meetup times boxes.
@@ -108,51 +108,50 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
         * The vertical design is also used on the what we do page, and all text sections are now in a vertical line.
         * The footer has a change in its spacing between the social media icons, and they are now much closer together, and the font-size of both sides. The widths of the left right footers are changed from 66%-33% to 50%-50%.
         * Contact form's width is set to shrink/grow according to the screen size, text areas's width are smaller.
-    * 550px
+    * __550px__
         * The navigation bar now centers its elements
         * The logo font-size is lowered
         * The footer font-sizes are lowered for both sides
         * The about us page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
         * The what we do page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
         * Contact form's width is increased, but still adapts to screen size. Clear and sumbit buttons's widths are smaller.
-    * 400px
+    * __400px__
         * Logo now takes two lines, and header's height adapts and is now 150px instead of 110px.
         * Navigation bar's font-size is down in order to fit one line.
         * About us page's height is increased to fit elements pushed together. Margin is changed for elements on same page. Picture is shrunk.
         * What we do page's height in increased. Margin is changed for elements on same page. Picture is shrunk.
-    * 300px
+    * __300px__
         * This is to accomodate the smallest screen sizes down to the lowest on the Google Developer Tool list (280px).
         * Navigation bar's font-size is lowered.
         * The height of the what we do page is increased, and margin of the elements on the same page is changed.
 
 
-## Browser testing 
+### Browser testing 
 * Test on Firefox was good, but Google fonts seems to not be able to load, so the backup font was displayed.
 * Microsoft Edge was without any issues.
 * Media query tested on my own phone, Samsung Galaxy S9 using Chrome, no issues
-* Media query tested on my own tablet, Ipad pro 2018 using Safari, no issues.
+* Media query tested on my own tablet, Ipad pro 2018 using Safari, one issues with margins, now fixed.
 * General testing with my own laptop, Asus 13 inch using Chrome, no issues.
 
-All links were tested. The links connecting to external sources (social media) open in a new tab and those linking to external pages all work
- as intended. There are links on each site, except for the what we do page, but the user still has an easy to understand sticky nagivation bar. 
+All links were tested. The links connecting to external sources (social media) open in a new tab and those linking to external pages all work as intended. There are links on each site, except for the what we do page, but the user still has an easy to understand sticky nagivation bar. 
 
 I believe the webpage is set up for the users to easily achieve their goal, which is to get general information about the group, who they are, 
 where and when they operate, a way to contact them with questions/requests for membership/general inquiries and comments.
 
 ### Bugs discovered during testing:
-I found the Google Developer Tool to not be stable in showing if the website responded correctly to different screensizes. Many times it would show 
+* I found the Google Developer Tool to not be stable in showing if the website responded correctly to different screensizes. Many times it would show 
 that everything worked fine and smoothly only to display something different the next time it was opened. Similarly, it would show that something was off 
 (footer not showing, lines out of bounds etc) only to show them correctly after closing and opening.
-Also, the test would succeed on Google Developer, but fail when manipulating actual browser window.
-Firefox did not show the Google font during testing.
+Also, some tests of media queries would succeed every time on Google Developer, but fail when manipulating actual browser window.
+* Firefox did not show the Google font during testing.
+* Safari did not show contact form buttons as Chrome, and I had to change margins.
 
 
-
-## Validator testing:
+### Validator testing:
 * W3 Markup Validation Service completed for all HTML pages with no issues.
 * Jigsaw test for CSS completed with no issues
 
-## Unfixed bugs:
+### Unfixed bugs:
 Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
 
 ## Deployment
@@ -165,28 +164,27 @@ The live link can be found here - https://andreaschristensen89.github.io/cleanco
 
 ## Credits:
 ### Pictures
-All images were taken from https://www.freepik.com/, which requires attributions.
-
 Images were compressed using the webpage https://tinypng.com/
+All images were taken from https://www.freepik.com/, which requires attributions. The following are the come snippest the webiste provides when downloading.
 
 * Hero-image:
-    <a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>
+    `<a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>`
 
 * Meetuptimes:
     * Kongens Have
-        <a href="https://www.freepik.com/photos/tree">Tree photo created by freepik - www.freepik.com</a>
+        `<a href="https://www.freepik.com/photos/tree">Tree photo created by freepik - www.freepik.com</a>`
     * Fælledparken
-        <a href="https://www.freepik.com/photos/hand">Hand photo created by prostooleh - www.freepik.com</a>
+        `<a href="https://www.freepik.com/photos/hand">Hand photo created by prostooleh - www.freepik.com</a>`
     * Søndermarken
-        <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
+        `<a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>`
     * Utterslev Mose
-        <a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>
+        `<a href="https://www.freepik.com/photos/kids">Kids photo created by prostooleh - www.freepik.com</a>`
 
 * About us
-    <a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>
+    `<a href='https://www.freepik.com/photos/kids'>Kids photo created by prostooleh - www.freepik.com</a>`
 
 * What we do
-    <a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>
+    `<a href='https://www.freepik.com/photos/hand'>Hand photo created by prostooleh - www.freepik.com</a>`
 
 
 ### Text content
@@ -199,7 +197,7 @@ Icons and script were taken from https://fontawesome.com/
 
 
 ### Coding help
-    * For help with varius issues with animations, sticky navigation bar, background manipulation etc. I often resorted to 
+    * For help with varius issues with animations, sticky navigation bar, css background manipulation etc. I often resorted to 
     https://stackoverflow.com/
     * Code Institute Slack Community for additional help with details (aria-label, general requirements, deployment)
 
@@ -210,15 +208,15 @@ Icons and script were taken from https://fontawesome.com/
 
 ## User Experience Considerations:
 
-Strategy
-Scope
-Structure
-Skeleton
-Surface
-
-The User
-- What are the goals for a first time visitor
-- What are the goals for a returning visitor
+### The User
+* What are the goals for a first time visitor
+   * Quickly understand what the group is doing, and where and when it is operating
+   * Be able to naviagte effortless through the pages
+   * Easily reach the contact page and understand how to contact the group
+* What are the goals for a returning visitor
+   * Confirm meeting points/times
+   * Check for updates of meeting times/places
+   * Quickly find contact page to ask questions/inquiries/give comments/recommendations
 
 ## Design choices
 * Overview
