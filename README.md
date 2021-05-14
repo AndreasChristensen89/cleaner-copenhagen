@@ -102,6 +102,7 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
         * The meetup times on the home page are made smaller in order to maintain proper form.On the what we do page, the text is also shrunk in order to avoid collission.
     * __950px__
         * This breakpoint is generally for tablet screens and deals with a number of element collissions by changing the general design from horizontal to vertical.
+        * Breakpoint is chosen due to navigation bar space, along with lack of meetup times space.
         * The navigation bar is pushed under the logo to make space for its size, but still floats to the right. 
         * The call-to-action boxes are places vertically, instead of horinzontally, and the same is done to the meetup times boxes.
         * On the about us page all the elements are also put vertically. Before the image was in the center, but now it is placed under the two text areas. The button remains in the bottom.
@@ -109,19 +110,21 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
         * The footer has a change in its spacing between the social media icons, and they are now much closer together, and the font-size of both sides. The widths of the left right footers are changed from 66%-33% to 50%-50%.
         * Contact form's width is set to shrink/grow according to the screen size, text areas's width are smaller.
     * __550px__
-        * The navigation bar now centers its elements
-        * The logo font-size is lowered
-        * The footer font-sizes are lowered for both sides
+        * Breakpoint is chosen due to text being pushed together and needing more space on the About page and the What We Do page.
+        * The navigation bar now centers its elements.
+        * The logo font-size is lowered.
+        * The footer font-sizes are lowered for both sides.
         * The about us page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
         * The what we do page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
         * Contact form's width is increased, but still adapts to screen size. Clear and sumbit buttons's widths are smaller.
     * __400px__
+        * Breakpoint is chosen due to navigation bar and logo space. Also, text and pictures need more space on About and What We Do pages.
         * Logo now takes two lines, and header's height adapts and is now 150px instead of 110px.
         * Navigation bar's font-size is down in order to fit one line.
         * About us page's height is increased to fit elements pushed together. Margin is changed for elements on same page. Picture is shrunk.
         * What we do page's height in increased. Margin is changed for elements on same page. Picture is shrunk.
     * __300px__
-        * This is to accomodate the smallest screen sizes down to the lowest on the Google Developer Tool list (280px).
+        * This is to accomodate the smallest screen sizes down to the lowest on the Google Developer Tool list (280px). Navigation bar space needed.
         * Navigation bar's font-size is lowered.
         * The height of the what we do page is increased, and margin of the elements on the same page is changed.
 
@@ -130,7 +133,7 @@ text, pictures, and boxes all adapt well to the breakpoints for different screen
 * Test on Firefox was good, but Google fonts seems to not be able to load, so the backup font was displayed.
 * Microsoft Edge was without any issues.
 * Media query tested on my own phone, Samsung Galaxy S9 using Chrome, no issues
-* Media query tested on my own tablet, Ipad pro 2018 using Safari, one issues with margins, now fixed.
+* Media query tested on my own tablet, Ipad pro 2018 using Safari, one issue with margins, now fixed.
 * General testing with my own laptop, Asus 13 inch using Chrome, no issues.
 
 All links were tested. The links connecting to external sources (social media) open in a new tab and those linking to external pages all work as intended. There are links on each site, except for the what we do page, but the user still has an easy to understand sticky nagivation bar. 
@@ -165,7 +168,7 @@ The live link can be found here - https://andreaschristensen89.github.io/cleanco
 ## Credits:
 ### Pictures
 Images were compressed using the webpage https://tinypng.com/
-All images were taken from https://www.freepik.com/, which requires attributions. The following are the come snippest the webiste provides when downloading.
+All images were taken from https://www.freepik.com/, which requires attributions. The following are the code snippest the website provides when downloading.
 
 * Hero-image:
     `<a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>`
@@ -211,7 +214,7 @@ Icons and script were taken from https://fontawesome.com/
 ### The User
 * What are the goals for a first time visitor
    * Quickly understand what the group is doing, and where and when it is operating
-   * Be able to naviagte effortless through the pages
+   * Be able to navigate effortless through the pages
    * Easily reach the contact page and understand how to contact the group
 * What are the goals for a returning visitor
    * Confirm meeting points/times
