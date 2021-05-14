@@ -173,7 +173,7 @@ Images were compressed using the webpage https://tinypng.com/
     <a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>
 
 * Meetuptimes:
-    * Kongens Have (and what-we-do page)
+    * Kongens Have
         <a href="https://www.freepik.com/photos/tree">Tree photo created by freepik - www.freepik.com</a>
     * Fælledparken
         <a href="https://www.freepik.com/photos/hand">Hand photo created by prostooleh - www.freepik.com</a>
@@ -254,6 +254,4 @@ All non-text elements is marked with aria-label, and the contrast between backgr
 
 ## Future:
 - Use semantic markup to structure HTML
-- Removed commented out code
-- GO thorugh CSS code to remove possible inactive/useless code
 - Add 404.md description
