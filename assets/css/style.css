@@ -521,6 +521,12 @@ form {
     color: #836225;
 }
 
+/* 404 page */
+
+#error-page h1 {
+    
+}
+
 /* Media queries */
 
 /* for larger screens */
