@@ -543,8 +543,9 @@ form {
 }
 
 #error-page p {
-    color: inherit;
+    color: grey;
     margin: 30px;
+    font-size: 18pt;
 }
 
 #error-page a {
