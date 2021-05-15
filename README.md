@@ -220,8 +220,7 @@ Icons and script were taken from https://fontawesome.com/
    * Quickly find contact page to ask questions/inquiries/give comments/recommendations
 
 ## Design choices
-* Overview
-    The aim is to provide easy-to-navigate pages that make it easy and clear to navigate around, with many links to the contact/join page.
+* Overview: The aim is to provide easy-to-navigate pages that make it easy and clear to navigate around, with many links to the contact/join page.
     Information should not be detailed but fast to read and understand, and straight to the point.
 
 ### Color Scheme 
