@@ -200,14 +200,12 @@ Icons and script were taken from https://fontawesome.com/
 
 
 ### Coding help
-    * For help with varius issues with animations, sticky navigation bar, css background manipulation etc. I often resorted to 
-    https://stackoverflow.com/
-    * Code Institute Slack Community for additional help with details (aria-label, general requirements, deployment)
+* For help with varius issues with animations, sticky navigation bar, css background manipulation etc. I often resorted to https://stackoverflow.com/
+* Code Institute Slack Community for additional help with details (aria-label, general requirements, deployment)
 
 ### Design
-    * For design of the different pages I took inspiration from other students of Code Institute that request reviews of their projects. Also,
-    I looked at various websites of professionals, e.g. https://www.wimhofmethod.com/
-    * For color schemes I used a blog on Visme that had 50 examples of good color combinations: https://visme.co/blog/website-color-schemes/
+* For design of the different pages I took inspiration from other students of Code Institute that request reviews of their projects. Also, I looked at various websites of professionals, e.g. https://www.wimhofmethod.com/
+* For color schemes I used a blog on Visme that had 50 examples of good color combinations: https://visme.co/blog/website-color-schemes/
 
 ## User Experience Considerations:
 
