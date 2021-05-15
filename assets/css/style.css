@@ -523,29 +523,34 @@ form {
 
 /* 404 page */
 
-#error-page h1 {
+#error-page {
     color: #61892f;
+    text-align: center;
+}
+
+#error-page h1 {
     font-weight: bold;
     font-size: 30pt;
     clear: both;
-    margin-bottom: 30px;
+    margin: 50px;
 }
 
 #error-page h2 {
-    color: #61892f;
     font-weight: bold;
     font-size: 22pt;
     clear: both;
-    margin: 30px;
+    margin: 50px;
 }
 
 #error-page p {
     color: inherit;
+    margin: 30px;
 }
 
 #error-page a {
     text-decoration: lightcoral;
     color: lightcoral;
+    border-bottom: rgba(0, 0, 0, 0.5);
 }
 
 /* Media queries */
