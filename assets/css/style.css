@@ -76,7 +76,7 @@ header {
     height: 600px;
     width: 100%;
     position: absolute;
-    object-fit: cover;
+    background-size: cover;
 }
 
 
@@ -524,7 +524,28 @@ form {
 /* 404 page */
 
 #error-page h1 {
-    
+    color: #61892f;
+    font-weight: bold;
+    font-size: 30pt;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+#error-page h2 {
+    color: #61892f;
+    font-weight: bold;
+    font-size: 22pt;
+    clear: both;
+    margin: 30px;
+}
+
+#error-page p {
+    color: inherit;
+}
+
+#error-page a {
+    text-decoration: lightcoral;
+    color: lightcoral;
 }
 
 /* Media queries */
