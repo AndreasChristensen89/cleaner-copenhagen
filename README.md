@@ -150,6 +150,7 @@ that everything worked fine and smoothly only to display something different the
 Also, some tests of media queries would succeed every time on Google Developer, but fail when manipulating actual browser window.
 * Firefox did not show the Google font during testing.
 * Safari did not show contact form buttons as Chrome, and I had to change margins.
+* H3 text for two meetup times media query 1340px goes outside their background when pushed together
 
 
 ### Validator testing:
@@ -157,7 +158,8 @@ Also, some tests of media queries would succeed every time on Google Developer, 
 * Jigsaw test for CSS completed with no issues
 
 ### Unfixed bugs:
-Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
+* Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
+* H3 text for two meetup times media query 1340px goes outside their background when pushed together
 
 ## Deployment
 The site was deployed to GitHub pages, and goes as follows:
