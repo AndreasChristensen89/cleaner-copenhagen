@@ -817,11 +817,6 @@ footer {
     width: 100%;
 }
 
-#litter-left p, #litter-right p {
-    border-top: none;
-    border-bottom: none;
-}
-
 #family {
     float: none;
     margin: 0 auto;
