@@ -87,7 +87,7 @@ striving for a cleaner Copenhagen.
 ### Features left to implement
 * Clicking on an event could fill in part of a form of which event the user wishes to register for.
 * Form should accomodate users wishes to register for specific events.
-* I was advised to not include a submit button in the form with a method and action (method="post", action="https://formdump.codeinstitute.net/", type="submit"), and instead have the type="button"
+* I was advised by my mentor to not include a submit button in the form with a method and action (method="post", action="https://formdump.codeinstitute.net/", type="submit"), and instead have the type="button"
 
 
 
@@ -96,37 +96,39 @@ striving for a cleaner Copenhagen.
 Also, developer tools was used to manipulate CSS to see direct outcomes. All pages have been tested with chrome developer tools to verify that
 text, pictures, and boxes all adapt well to the breakpoints for different screens. 
 
-* Breakpoints are set to the following and are all tested to work:
-    * __1340px__
-        * This Breakpoint deals with the navigation bar and shrinks the text to avoid colission with the logo. 
-        * The meetup times on the home page are made smaller in order to maintain proper form.On the what we do page, the text is also shrunk in order to avoid collission.
-    * __950px__
-        * This breakpoint is generally for tablet screens and deals with a number of element collissions by changing the general design from horizontal to vertical.
-        * Breakpoint is chosen due to navigation bar space, along with lack of meetup times space.
-        * The navigation bar is pushed under the logo to make space for its size, but still floats to the right. 
-        * The call-to-action boxes are places vertically, instead of horinzontally, and the same is done to the meetup times boxes.
-        * On the about us page all the elements are also put vertically. Before the image was in the center, but now it is placed under the two text areas. The button remains in the bottom.
-        * The vertical design is also used on the what we do page, and all text sections are now in a vertical line.
-        * The footer has a change in its spacing between the social media icons, and they are now much closer together, and the font-size of both sides. The widths of the left right footers are changed from 66%-33% to 50%-50%.
-        * Contact form's width is set to shrink/grow according to the screen size, text areas's width are smaller.
-    * __550px__
-        * Breakpoint is chosen due to text being pushed together and needing more space on the About page and the What We Do page.
-        * The navigation bar now centers its elements.
-        * The logo font-size is lowered.
-        * The footer font-sizes are lowered for both sides.
-        * The about us page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
-        * The what we do page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
-        * Contact form's width is increased, but still adapts to screen size. Clear and sumbit buttons's widths are smaller.
-    * __400px__
-        * Breakpoint is chosen due to navigation bar and logo space. Also, text and pictures need more space on About and What We Do pages.
-        * Logo now takes two lines, and header's height adapts and is now 150px instead of 110px.
-        * Navigation bar's font-size is down in order to fit one line.
-        * About us page's height is increased to fit elements pushed together. Margin is changed for elements on same page. Picture is shrunk.
-        * What we do page's height in increased. Margin is changed for elements on same page. Picture is shrunk.
-    * __300px__
-        * This is to accomodate the smallest screen sizes down to the lowest on the Google Developer Tool list (280px). Navigation bar space needed.
-        * Navigation bar's font-size is lowered.
-        * The height of the what we do page is increased, and margin of the elements on the same page is changed.
+__Breakpoints are set to the following and are all tested to work:__
+* __1340px__
+   * This Breakpoint deals with the navigation bar and shrinks the text to avoid colission with the logo. 
+   * The meetup times on the home page are made smaller in order to maintain proper form. On the what we do page the text is also shrunk in order to avoid collission.
+   * Home page: Font sizes are changed in call to action(cta), side-margin, width, height, and padding are changed for meetup times divs, which bring them closer together. Background x-positions are changed for two meetup times divs.
+   * What we do page (wwd): Text padding changed, margins and widths are changed for divs
+* __950px__
+   * This breakpoint is generally for tablet screens and deals with a number of element collissions by changing the general design from horizontal to vertical.
+   * Breakpoint is chosen due to navigation bar space, along with lack of meetup times space.
+   * The navigation bar is pushed under the logo to make space for its size, but still floats to the right. Header is bigger, and logo has smaller font size.
+   * The cta divs are places vertically, instead of horinzontally, and the same is done to the meetup times divs. Cta scale change in the animation is reduced to avoid overlap.
+   * On the about us page all the elements are also put vertically. Before the image was in the center, but now it is placed under the two text areas. The button remains in the bottom.
+   * The vertical design is also used on the what we do page, and all text sections are now in a vertical line.
+   * The footer has a change in its spacing between the social media icons, and they are now much closer together, and the font-size of both sides. The widths of the left right footers are changed from 66%-33% to 50%-50%.
+   * Contact form's width is set to shrink/grow according to the screen size, text areas's width are smaller.
+* __550px__
+   * Breakpoint is chosen due to text being pushed together and needing more space on the About page and the What We Do page.
+   * The navigation bar now centers its elements.
+   * The logo font-size is lowered.
+   * The footer font-sizes are lowered for both sides.
+   * The about us page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
+   * The what we do page's height is increased, and padding and margin of the elements are changed to accomodate text pushed together.
+   * Contact form's width is increased, but still adapts to screen size. Clear and sumbit buttons's widths are smaller.
+* __400px__
+   * Breakpoint is chosen due to navigation bar and logo space. Also, text and pictures need more space on About and What We Do pages.
+   * Logo now takes two lines, and header's height adapts and is now 150px instead of 110px.
+   * Navigation bar's font-size is down in order to fit one line.
+   * About us page's height is increased to fit elements pushed together. Margin is changed for elements on same page. Picture is shrunk.
+   * What we do page's height in increased. Margin is changed for elements on same page. Picture is shrunk.
+* __300px__
+   * This is to accomodate the smallest screen sizes down to the lowest on the Google Developer Tool list (280px). Navigation bar space needed.
+   * Navigation bar's font-size is lowered.
+   * The height of the what we do page is increased, and margin of the elements on the same page is changed.
 
 
 ### Browser testing 
