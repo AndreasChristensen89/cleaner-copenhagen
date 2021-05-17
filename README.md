@@ -152,6 +152,7 @@ Also, some tests of media queries would succeed every time on Google Developer, 
 * Safari did not show contact form buttons as Chrome, and I had to change margins.
 * H3 text for two meetup times media query 1340px goes outside their background when pushed together
 * Markup validation service gave errors when using aria-label on css backgrounds. This was handled by adding a span in the div with role="img" and aria-label.
+* Error for favicon.ico in browser, favicon.ico not implemented
 
 
 ### Validator testing:
@@ -161,6 +162,7 @@ Also, some tests of media queries would succeed every time on Google Developer, 
 ### Unfixed bugs:
 * Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
 * H3 text for two meetup times media query 1340px goes outside their background when pushed together.
+* Favicon.ico not included - After consulting Slack tutors I learned that it's not necessary
 
 ## Deployment
 The site was deployed to GitHub pages, and goes as follows:
