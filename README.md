@@ -151,15 +151,16 @@ Also, some tests of media queries would succeed every time on Google Developer, 
 * Firefox did not show the Google font during testing.
 * Safari did not show contact form buttons as Chrome, and I had to change margins.
 * H3 text for two meetup times media query 1340px goes outside their background when pushed together
+* Markup validation service gave errors when using aria-label on css backgrounds. This was handled by adding a span in the div with role="img" and aria-label.
 
 
 ### Validator testing:
-* W3 Markup Validation Service completed for all HTML pages with no issues.
-* Jigsaw test for CSS completed with no issues
+* W3 Markup Validation Service completed for all HTML pages with no errors.
+* Jigsaw test for CSS completed with no errors.
 
 ### Unfixed bugs:
 * Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
-* H3 text for two meetup times media query 1340px goes outside their background when pushed together
+* H3 text for two meetup times media query 1340px goes outside their background when pushed together.
 
 ## Deployment
 The site was deployed to GitHub pages, and goes as follows:
@@ -251,9 +252,4 @@ Sunny, bright and green pictures from parks were targeted to with the aim of thi
 * Markdown language for readme file
 
 ### Accesibility
-All non-text elements is marked with aria-label, and the contrast between background and foreground colors were implemented in color scheme.
-
-
-## Future:
-- Use semantic markup to structure HTML
-- Add 404.md description
+All non-text elements is marked with labels, and the contrast between background and foreground colors were implemented in color scheme.
