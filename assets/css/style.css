@@ -1024,6 +1024,12 @@ header {
     margin-bottom: 0px;
 }
 
+/* about us page 300px */
+
+#intro-center {
+        margin: 300px auto 100px auto;
+}
+
 /* What we do page 300px */
 
 .whatwedo {
