@@ -13,7 +13,7 @@ body {
     background-color: #EAE7DC;
 }
 
-/* headings and logo */
+/* ====================== Headings and logo ====================== */
 
 #logo {
     float: left;
@@ -63,7 +63,8 @@ header {
     box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* hero-image */
+/* ====================== Hero image ====================== */
+
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -112,7 +113,7 @@ header {
     }
 }
 
-/* Call to action section - home page */
+/* ====================== Call to action section - home page ====================== */
 
 .cta-section {
     height: 450px;
@@ -169,7 +170,8 @@ height: 325px;
   font-weight: 500;
   font-size: 130%;
 }
-/* meetup times home page */
+
+/* ====================== Meetup times - Home page ====================== */
 
 #meetup-times {
     text-align: center;
@@ -233,7 +235,7 @@ box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.4);
 transition: all 0.3s ease 0s;
 }
 
-/* footer */
+/* ====================== Footer ====================== */
 
 footer {
     height: 75px;
@@ -268,7 +270,7 @@ transform: scale(1.2);
 box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.4);
 }
 
-/* about us */
+/* ====================== About us page ====================== */
 
 .groupintro {
     height: 975px;
@@ -356,7 +358,7 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
     border-bottom: 1px solid #61892f;
 }
 
-/* What we do */
+/* ====================== What we do page ====================== */
 
 .whatwedo {
     height: 900px;
@@ -455,7 +457,7 @@ box-shadow: 5px 10px 10px 10px rgba(0, 0, 0, 0.4);
     margin: 0 auto;
 }
 
-/* contact page */
+/* ====================== Contact page ====================== */
 
 #form-section {
     height: 600px;
@@ -521,7 +523,7 @@ form {
     color: #836225;
 }
 
-/* 404 page */
+/* ====================== 404 page ====================== */
 
 #error-page {
     color: #61892f;
@@ -554,9 +556,8 @@ form {
     border-bottom: rgba(0, 0, 0, 0.5);
 }
 
-/* Media queries */
+/* ============================== Media queries 1340px ============================== */
 
-/* for larger screens */
 @media screen and (max-width: 1340px) {
 #menu {
     letter-spacing: 1px;
@@ -620,6 +621,8 @@ form {
 }
 
 }
+
+/* ============================== Media queries 900px ============================== */
 
 @media screen and (max-width: 950px) {
 
@@ -839,6 +842,8 @@ footer {
 
 }
 
+/* ============================== Media queries 550px ============================== */
+
 @media screen and (max-width: 550px) {
 
 #logo {
@@ -952,6 +957,8 @@ header {
 }
 }
 
+/* ============================== Media queries 400px ============================== */
+
 @media screen and (max-width: 400px) { 
 #menu > li {
     font-size: 65%;
@@ -1011,6 +1018,8 @@ header {
 }
 
 }
+
+/* ============================== Media queries 300px ============================== */
 
 @media screen and (max-width: 300px) { 
 #menu > li {
