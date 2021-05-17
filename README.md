@@ -161,7 +161,7 @@ Also, some tests of media queries would succeed every time on Google Developer, 
 
 ### Unfixed bugs:
 * Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
-* Favicon.ico not included - After consulting Slack tutors I learned that it's not necessary
+* Favicon.ico not included
 
 ## Deployment
 The site was deployed to GitHub pages, and goes as follows:
