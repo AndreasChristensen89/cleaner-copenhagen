@@ -149,8 +149,8 @@ that everything worked fine and smoothly only to display something different the
 (footer not showing, lines out of bounds etc) only to show them correctly after closing and opening.
 Also, some tests of media queries would succeed every time on Google Developer, but fail when manipulating actual browser window.
 * Firefox did not show the Google font during testing.
+* Firefox did not display certain margins as chrome (e.g. for navbar), and they had to be changed
 * Safari did not show contact form buttons as Chrome, and I had to change margins.
-* H3 text for two meetup times media query 1340px goes outside their background when pushed together
 * Markup validation service gave errors when using aria-label on css backgrounds. This was handled by adding a span in the div with role="img" and aria-label.
 * Error for favicon.ico in browser, favicon.ico not implemented
 
@@ -161,7 +161,6 @@ Also, some tests of media queries would succeed every time on Google Developer, 
 
 ### Unfixed bugs:
 * Testing in Firefox went well with functionality, but the Google Font Lato was not loaded.
-* H3 text for two meetup times media query 1340px goes outside their background when pushed together.
 * Favicon.ico not included - After consulting Slack tutors I learned that it's not necessary
 
 ## Deployment
