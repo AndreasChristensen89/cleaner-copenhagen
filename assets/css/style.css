@@ -93,7 +93,7 @@ header {
     color: white;
     font-size: 200%;
     text-transform: uppercase;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     
     animation-name: text-zoom;
     animation-duration: 3s;
