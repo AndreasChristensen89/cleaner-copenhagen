@@ -79,15 +79,18 @@ striving for a cleaner Copenhagen.
 ![What we do - bottom](/assets/readme-pictures/whatwedo-bottom-readme.PNG)
 
 * __Contact__
-    * This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email. The user can write a message, clear form, and submit.
+    * This is the contact form and it follows the style of the home page boxes. Along with the first name, last name, and email. The user can write a message, clear form, and submit. (*I was advised by my mentor to not include a submit button in the form with a method and action (method="post", action="https://formdump.codeinstitute.net/", type="submit"), and instead have the type="button"*)
     * It is valuable to the user to be able to contact the group if they wish to become a member, ask questions, or any other requests/comments.
 
 ![Contact](/assets/readme-pictures/contact-readme.PNG)
 
-### Features left to implement
+### Future features to implement
 * Clicking on an event could fill in part of a form of which event the user wishes to register for.
 * Form should accomodate users wishes to register for specific events.
-* I was advised by my mentor to not include a submit button in the form with a method and action (method="post", action="https://formdump.codeinstitute.net/", type="submit"), and instead have the type="button"
+* Ability to sign up for a newsletter
+* Gallery with event pictures
+* Blog posts
+* Google maps for meetup places
 
 
 
@@ -174,7 +177,7 @@ The live link can be found here - https://andreaschristensen89.github.io/cleanco
 ## Credits:
 ### Pictures
 Images were compressed using the webpage https://tinypng.com/
-All images were taken from https://www.freepik.com/, which requires attributions. The following are the code snippest the website provides when downloading.
+All images were taken from https://www.freepik.com/, which requires attributions. The following are the code snippets the website provides when downloading.
 
 * Hero-image:
     `<a href="https://www.freepik.com/photos/summer">Summer photo created by onlyyouqj - www.freepik.com</a>`
@@ -218,11 +221,12 @@ Icons and script were taken from https://fontawesome.com/
 ### The User
 * What are the goals for a first time visitor
    * Quickly understand what the group is doing, and where and when it is operating
+   * Be captivated by the content and the imagery
    * Be able to navigate effortless through the pages
    * Easily reach the contact page and understand how to contact the group
 * What are the goals for a returning visitor
-   * Confirm meeting points/times
-   * Check for updates of meeting times/places
+   * Instantly/easily remember how to navigate the content
+   * Find meetup times to confirm times and places in seconds
    * Quickly find contact page to ask questions/inquiries/give comments/recommendations
 
 ## Design choices
@@ -253,4 +257,4 @@ Sunny, bright and green pictures from parks were targeted to with the aim of thi
 * Markdown language for readme file
 
 ### Accesibility
-All non-text elements is marked with labels, and the contrast between background and foreground colors were implemented in color scheme.
+All non-text elements are marked with labels, and the contrast between background and foreground colors were implemented in color scheme.
